@@ -1,0 +1,29 @@
+{
+  "name": "tech-intelligence-backend",
+  "version": "1.0.0",
+  "description": "Tech Intelligence Forecasting Platform - Backend API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node scripts/seedTopics.js",
+    "update": "node scripts/triggerUpdate.js"
+  },
+  "keywords": [
+    "tech",
+    "intelligence",
+    "forecasting",
+    "supabase"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.98.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "node-cron": "^3.0.3"
+  }
+}
