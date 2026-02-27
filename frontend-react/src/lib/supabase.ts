@@ -11,8 +11,9 @@ const fetchWithTimeout: typeof fetch = (input, init) => {
   
   // If the incoming init already has a signal, we need to handle it
   if (init?.signal) {
-    init.signal.addEventListener('abort', () => {
-      controller.abort(init.signal.reason)
+    const signal = init.signal
+    signal.addEventListener('abort', () => {
+      controller.abort(signal.reason)
     })
   }
   
