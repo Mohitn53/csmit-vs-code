@@ -9,6 +9,7 @@ import CategoryPage from './pages/CategoryPage'
 import TopicPage from './pages/TopicPage'
 import AIPage from './pages/AIPage'
 import ProfilePage from './pages/ProfilePage'
+import ResumeAnalyzerPage from './pages/ResumeAnalyzerPage'
 
 function ProtectedRoute() {
   const { session, loading } = useAuth()
@@ -46,6 +47,7 @@ function AppRoutes() {
         <Route path="/dashboard" element={<DashboardLayout />}>
           <Route index element={<DashboardHome />} />
           <Route path="ai" element={<AIPage />} />
+          <Route path="resume-analyzer" element={<ResumeAnalyzerPage />} />
           <Route path="topic/:topic_name" element={<TopicPage />} />
           <Route path="profile" element={<ProfilePage />} />
         </Route>

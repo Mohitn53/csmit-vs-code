@@ -1,0 +1,243 @@
+{
+  "Python": [
+    "Python programming",
+    "Python scripting and automation",
+    "Backend development with Python",
+    "Python data processing",
+    "Python REST API development",
+    "Scripting using Python",
+    "Python for web development"
+  ],
+  "JavaScript": [
+    "JavaScript programming",
+    "Vanilla JavaScript development",
+    "Frontend scripting with JavaScript",
+    "ES6+ JavaScript features",
+    "Asynchronous JavaScript and promises",
+    "JavaScript DOM manipulation",
+    "Client-side scripting"
+  ],
+  "C": [
+    "C programming language",
+    "Low-level programming in C",
+    "Systems programming with C",
+    "Memory management in C",
+    "C language algorithms and data structures"
+  ],
+  "HTML": [
+    "HTML web development",
+    "HyperText Markup Language",
+    "Building web page structure with HTML",
+    "HTML5 semantic elements",
+    "HTML forms and input handling",
+    "Web page layout using HTML",
+    "Frontend markup with HTML"
+  ],
+  "CSS": [
+    "CSS styling and design",
+    "Cascading Style Sheets",
+    "Web page styling with CSS",
+    "CSS flexbox and grid layout",
+    "Responsive web design using CSS",
+    "CSS animations and transitions",
+    "Frontend design with CSS",
+    "CSS3 modern styling"
+  ],
+  "React.js": [
+    "React framework",
+    "React.js frontend development",
+    "Building user interfaces with React",
+    "Component-based UI using React",
+    "React hooks and state management",
+    "Single page application with React",
+    "React component lifecycle",
+    "Dynamic UI development using React"
+  ],
+  "Tailwind CSS": [
+    "Tailwind CSS styling",
+    "Utility-first CSS with Tailwind",
+    "Responsive design using Tailwind CSS",
+    "UI styling with Tailwind",
+    "Tailwind CSS layout and design",
+    "Modern web styling with Tailwind",
+    "Rapid UI development with Tailwind CSS",
+    "Tailwind CSS utility classes"
+  ],
+  "Chakra UI": [
+    "Chakra UI component library",
+    "React UI with Chakra",
+    "Accessible UI using Chakra UI",
+    "Building design systems with Chakra UI",
+    "Chakra UI theming and customization"
+  ],
+  "Firebase": [
+    "Firebase authentication",
+    "Firebase realtime database",
+    "Firebase backend services",
+    "Firebase Hosting",
+    "Firebase cloud functions",
+    "Serverless backend with Firebase",
+    "User authentication using Firebase"
+  ],
+  "Zustand": [
+    "Zustand state management",
+    "Global state with Zustand",
+    "React state management using Zustand",
+    "Lightweight state management in React",
+    "Zustand store setup and usage"
+  ],
+  "Node.js": [
+    "Node.js backend development",
+    "Express.js server",
+    "REST API using Node.js",
+    "Server-side JavaScript with Node.js",
+    "Node.js runtime environment",
+    "Building scalable backends with Node.js"
+  ],
+  "Express.js": [
+    "Express.js web framework",
+    "Building REST APIs with Express",
+    "Express.js middleware and routing",
+    "Node.js server using Express",
+    "Backend API development with Express.js",
+    "HTTP request handling with Express"
+  ],
+  "NumPy": [
+    "NumPy numerical computing",
+    "Array operations with NumPy",
+    "Scientific computing using NumPy",
+    "NumPy for data manipulation",
+    "Matrix operations with NumPy",
+    "Python numerical arrays using NumPy",
+    "Mathematical computing with NumPy"
+  ],
+  "Pandas": [
+    "Pandas data analysis",
+    "Data manipulation with Pandas",
+    "DataFrame operations using Pandas",
+    "Data cleaning and preprocessing with Pandas",
+    "Exploratory data analysis using Pandas",
+    "CSV and tabular data processing with Pandas",
+    "Python data wrangling with Pandas"
+  ],
+  "Matplotlib": [
+    "Matplotlib data visualization",
+    "Plotting graphs with Matplotlib",
+    "Data visualization using Matplotlib",
+    "Chart and graph generation with Matplotlib",
+    "Python plotting library Matplotlib",
+    "Visualizing datasets using Matplotlib",
+    "Line and bar charts with Matplotlib"
+  ],
+  "Seaborn": [
+    "Seaborn statistical visualization",
+    "Data visualization with Seaborn",
+    "Statistical plots using Seaborn",
+    "Heatmaps and pair plots with Seaborn",
+    "Python visualization library Seaborn",
+    "Advanced data visualization using Seaborn",
+    "Seaborn for exploratory data analysis"
+  ],
+  "MySQL": [
+    "MySQL relational database",
+    "Database management with MySQL",
+    "SQL queries using MySQL",
+    "MySQL schema design",
+    "DBMS concepts with MySQL",
+    "Relational data storage using MySQL",
+    "MySQL joins and stored procedures",
+    "Database management system MySQL"
+  ],
+  "DSA": [
+    "Data structures and algorithms",
+    "DSA problem solving",
+    "Algorithm design and analysis",
+    "Data structures like arrays, trees, graphs",
+    "Competitive programming with DSA",
+    "Problem solving using data structures",
+    "Sorting and searching algorithms",
+    "Time and space complexity analysis",
+    "Linked lists, stacks, queues implementation"
+  ],
+  "Java": [
+    "Java programming language",
+    "Object-oriented programming with Java",
+    "Java application development",
+    "Core Java concepts",
+    "Java collections and generics",
+    "Java multithreading and concurrency",
+    "Backend development using Java"
+  ],
+  "Spring Boot": [
+    "Spring Boot framework",
+    "Java backend development with Spring Boot",
+    "REST API using Spring Boot",
+    "Spring Boot microservices",
+    "Spring Boot MVC architecture",
+    "Building enterprise applications with Spring Boot",
+    "Spring Boot with JPA and Hibernate",
+    "Dependency injection using Spring Boot",
+    "Spring Boot REST controller"
+  ],
+  "MongoDB": [
+    "MongoDB NoSQL database",
+    "MongoDB CRUD operations",
+    "Database design with MongoDB",
+    "Mongoose ODM with MongoDB",
+    "MongoDB Atlas cloud database",
+    "Document-based data storage with MongoDB"
+  ],
+  "Firebase Firestore": [
+    "Firebase Firestore database",
+    "Cloud Firestore data modeling",
+    "Real-time data sync with Firestore",
+    "NoSQL database using Firestore",
+    "Firestore collections and documents",
+    "Querying data in Firestore"
+  ],
+  "SQL": [
+    "SQL database queries",
+    "Relational database management with SQL",
+    "SQL joins and aggregations",
+    "Structured query language",
+    "Database design using SQL",
+    "SQL CRUD operations"
+  ],
+  "Git": [
+    "Git version control",
+    "Source code management with Git",
+    "Git branching and merging",
+    "Tracking code changes with Git",
+    "Git commit and rollback"
+  ],
+  "GitHub": [
+    "GitHub repository management",
+    "Collaborative development on GitHub",
+    "Pull requests and code reviews on GitHub",
+    "Open source contribution via GitHub",
+    "GitHub Actions CI/CD",
+    "Version control using GitHub"
+  ],
+  "VS Code": [
+    "Visual Studio Code editor",
+    "Development environment using VS Code",
+    "VS Code extensions and configuration",
+    "Code editing with VS Code",
+    "Debugging with VS Code"
+  ],
+  "Postman": [
+    "API testing with Postman",
+    "REST API debugging using Postman",
+    "Postman collections and environments",
+    "HTTP request testing with Postman",
+    "Backend API validation using Postman"
+  ],
+  "Cloudinary": [
+    "Cloudinary media management",
+    "Image upload and storage with Cloudinary",
+    "Cloud-based image hosting using Cloudinary",
+    "Cloudinary API integration",
+    "Media optimization with Cloudinary",
+    "File upload using Cloudinary"
+  ]
+}

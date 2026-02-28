@@ -2,7 +2,7 @@ import { useState, ReactNode } from 'react'
 import { Link, useLocation, useNavigate, Outlet } from 'react-router-dom'
 import {
   LayoutDashboard, Layers, Cpu, Car, HardDrive, Smartphone,
-  Bell, Menu, Bot, LogOut, User, Settings
+  Bell, Menu, Bot, LogOut, User, Settings, FileText
 } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { supabase } from '../lib/supabase'
@@ -12,6 +12,7 @@ import { cn } from '../lib/utils'
 const navigation = [
   { name: 'Overview', href: '/dashboard', icon: LayoutDashboard },
   { name: 'AI Intelligence', href: '/dashboard/ai', icon: Bot },
+  { name: 'Resume Analyzer', href: '/dashboard/resume-analyzer', icon: FileText },
   { name: 'Developer & Intelligence', href: '/categories/1', icon: Layers },
   { name: 'Physical AI & Robotics', href: '/categories/2', icon: Cpu },
   { name: 'Mobility & SDV', href: '/categories/3', icon: Car },

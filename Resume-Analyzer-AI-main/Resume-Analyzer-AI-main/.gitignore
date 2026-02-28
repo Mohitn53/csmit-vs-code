@@ -1,0 +1,5 @@
+# Environment variables - do not push
+.env
+
+node_modules/
+dist/
