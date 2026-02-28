@@ -16,6 +16,7 @@ app.add_middleware(
 
 class ChatRequest(BaseModel):
     message: str
+    user_id: str | None = None
 
 @app.post("/chat")
 async def chat_endpoint(req: ChatRequest):
@@ -28,18 +29,30 @@ async def chat_endpoint(req: ChatRequest):
         category_name = entities.get("category_name")
         
         if not primary_name:
-            return {"reply": "I couldn't find a specifically matching technology in the catalog. Could you please specify which tech you're asking about?"}
+            reply = "I couldn't find a specifically matching technology in the catalog. Could you please specify which tech you're asking about?"
+        else:
+            print(f"Identified entity: {primary_name} ({category_name})")
             
-        print(f"Identified entity: {primary_name} ({category_name})")
-        
-        query_code = rag_pipeline.step_3_generate_supabase_query(primary_name, category_name, user_query)
-        retrieved_data = rag_pipeline.step_4_execute_query(query_code)
-        
-        if not retrieved_data or (isinstance(retrieved_data, dict) and "error" in retrieved_data):
-            return {"reply": "I tried checking the database but couldn't find context for this specific request right now."}
+            query_code = rag_pipeline.step_3_generate_supabase_query(primary_name, category_name, user_query)
+            retrieved_data = rag_pipeline.step_4_execute_query(query_code)
             
-        final_answer = rag_pipeline.step_5_generate_human_response(user_query, retrieved_data)
-        return {"reply": final_answer}
+            if not retrieved_data or (isinstance(retrieved_data, dict) and "error" in retrieved_data):
+                reply = "I tried checking the database but couldn't find context for this specific request right now."
+            else:
+                reply = rag_pipeline.step_5_generate_human_response(user_query, retrieved_data)
+                
+        # Store in database if a user_id is provided
+        if req.user_id:
+            try:
+                rag_pipeline.supabase.table('chat_history').insert({
+                    "user_id": req.user_id,
+                    "query": user_query,
+                    "reply": reply
+                }).execute()
+            except Exception as e:
+                print(f"Failed to store chat history: {e}")
+        
+        return {"reply": reply}
 
     except Exception as e:
         print(traceback.format_exc())

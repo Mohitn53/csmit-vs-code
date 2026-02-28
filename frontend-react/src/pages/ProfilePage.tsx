@@ -1,8 +1,15 @@
-import { useState } from 'react'
-import { User, Mail, Shield, LogOut, Edit2, Save } from 'lucide-react'
+import { useState, useEffect } from 'react'
+import { User, Mail, Shield, LogOut, Edit2, Save, MessageSquare, Clock } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 import { supabase } from '../lib/supabase'
+
+interface ChatHistory {
+  id: string
+  query: string
+  reply: string
+  created_at: string
+}
 
 export default function ProfilePage() {
   const { session } = useAuth()
@@ -13,6 +20,33 @@ export default function ProfilePage() {
     user?.user_metadata?.full_name || user?.email?.split('@')[0] || 'User'
   )
   const [saving, setSaving] = useState(false)
+  const [recentChats, setRecentChats] = useState<ChatHistory[]>([])
+  const [chatsLoading, setChatsLoading] = useState(true)
+
+  useEffect(() => {
+    async function fetchChatHistory() {
+      if (!user) return
+      
+      try {
+        const { data, error } = await supabase
+          .from('chat_history')
+          .select('*')
+          .eq('user_id', user.id)
+          .order('created_at', { ascending: false })
+          .limit(5)
+          
+        if (!error && data) {
+          setRecentChats(data)
+        }
+      } catch (err) {
+        console.error("Failed to load chat history", err)
+      } finally {
+        setChatsLoading(false)
+      }
+    }
+    
+    fetchChatHistory()
+  }, [user])
 
   const handleSave = async () => {
     setSaving(true)
@@ -92,6 +126,49 @@ export default function ProfilePage() {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Recent AI Chats */}
+      <div className="glass-card p-6 space-y-4">
+        <div className="flex items-center justify-between mb-2">
+          <h3 className="font-semibold text-sm uppercase tracking-wider text-muted-foreground">Recent AI Consultations</h3>
+        </div>
+        
+        {chatsLoading ? (
+          <div className="animate-pulse flex space-x-4">
+            <div className="flex-1 space-y-4 py-1">
+              <div className="h-4 bg-white/5 rounded w-3/4"></div>
+              <div className="space-y-2">
+                <div className="h-4 bg-white/5 rounded"></div>
+                <div className="h-4 bg-white/5 rounded w-5/6"></div>
+              </div>
+            </div>
+          </div>
+        ) : recentChats.length > 0 ? (
+          <div className="space-y-4">
+            {recentChats.map((chat) => (
+              <div key={chat.id} className="p-4 rounded-xl bg-white/3 border border-white/5 space-y-2">
+                <div className="flex items-center gap-2 text-indigo-400">
+                  <MessageSquare className="w-4 h-4" />
+                  <span className="font-medium text-sm">"{chat.query}"</span>
+                </div>
+                <p className="text-sm text-zinc-300 line-clamp-2">
+                  {chat.reply}
+                </p>
+                <div className="flex items-center gap-1 text-xs text-muted-foreground pt-2">
+                  <Clock className="w-3 h-3" />
+                  {new Date(chat.created_at).toLocaleDateString()} at {new Date(chat.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-6 px-4 bg-white/3 rounded-xl border border-white/5 border-dashed">
+            <MessageSquare className="w-8 h-8 text-muted-foreground mx-auto mb-2 opacity-50" />
+            <p className="text-sm text-muted-foreground">No recent AI chats found.</p>
+            <p className="text-xs text-muted-foreground mt-1">Ask the floating TechIntel AI a question on the Dashboard to see it here.</p>
+          </div>
+        )}
       </div>
 
       {/* Danger zone */}

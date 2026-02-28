@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Send, X, Bot, User, Sparkles } from 'lucide-react'
+import { useAuth } from '../../contexts/AuthContext'
 
 interface Message {
   id: string;
@@ -9,6 +10,9 @@ interface Message {
 }
 
 export default function FloatingChat() {
+  const { session } = useAuth()
+  const userId = session?.user?.id
+
   const [isOpen, setIsOpen] = useState(false)
   const [messages, setMessages] = useState<Message[]>([
     { id: '1', role: 'assistant', text: "Hi! I am the TechIntel AI. I have access to all our tracked technology trends. Ask me anything!" }
@@ -45,7 +49,7 @@ export default function FloatingChat() {
       const response = await fetch('http://localhost:5003/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: msg })
+        body: JSON.stringify({ message: msg, user_id: userId })
       });
       const data = await response.json()
       
@@ -68,9 +72,17 @@ export default function FloatingChat() {
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 100, opacity: 0 }}
-            className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 w-full max-w-2xl px-4"
+            className="fixed bottom-8 max-w-2xl px-4 z-50 pointer-events-auto"
+            style={{ 
+              left: '280px', 
+              right: '0px', 
+              margin: '0 auto', 
+              width: '100%',
+              display: 'flex',
+              justifyContent: 'center'
+            }}
           >
-            <div className="glass-card bg-[#111118]/80 backdrop-blur-xl border border-white/10 p-2 rounded-full shadow-2xl flex items-center gap-3">
+            <div className="glass-card bg-[#111118]/80 backdrop-blur-xl border border-white/10 p-2 rounded-full shadow-2xl flex items-center gap-3 w-full max-w-2xl">
               <div className="bg-indigo-500/20 p-2 rounded-full hidden sm:flex">
                 <Sparkles className="w-5 h-5 text-indigo-400" />
               </div>
