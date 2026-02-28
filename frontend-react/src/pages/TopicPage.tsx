@@ -72,20 +72,11 @@ export default function TopicPage() {
           const nNews = ((m.news || 0) / maxNews) * 100
           const score = (nJobs + nGithub + nTrends + nNews) / 4
 
-          const lookback = historicalMetrics.slice(Math.max(0, idx - 3), idx + 1)
-          const expected = lookback.reduce((acc, curr) => {
-             const cj = ((curr.jobs || 0) / maxJobs) * 100
-             const cg = ((curr.github || 0) / maxGithub) * 100
-             const ct = ((curr.trends || 0) / maxTrends) * 100
-             const cn = ((curr.news || 0) / maxNews) * 100
-             return acc + (cj + cg + ct + cn) / 4
-          }, 0) / lookback.length
-
           return {
             date: dateStr,
             isoDateForProphet: getDateFromIsoWeek(m.iso_week),
             score: Math.round(score),
-            expected: Math.round(expected),
+            expected: null,
             nJobs, nGithub, nTrends, nNews
           }
         })
@@ -136,19 +127,18 @@ export default function TopicPage() {
         }
 
         const validHistory = formatted.filter(f => f.score !== null);
-
+        
         setMomentumData(formatted.map(f => ({ date: f.date, score: f.score, expected: f.expected })))
         
-        let recentForPillars = validHistory.slice(-6);
-        if (recentForPillars.length === 0) recentForPillars = formatted.slice(-6);
-        setPillarData(recentForPillars.map(f => ({
-          name: f.date,
-          Developer: Math.round(f.nGithub),
-          Market: Math.round((f.nTrends + f.nNews) / 2),
-          Business: Math.round(f.nJobs)
-        })))
-
         const latestActual = validHistory[validHistory.length - 1] || formatted[formatted.length - 1];
+
+        setPillarData([
+          { name: 'Developer', score: Math.round(latestActual.nGithub || 0), color: '#3b82f6' },
+          { name: 'Market', score: Math.round(((latestActual.nTrends || 0) + (latestActual.nNews || 0)) / 2), color: '#10b981' },
+          { name: 'Business', score: Math.round(latestActual.nJobs || 0), color: '#f59e0b' },
+          { name: 'Overall', score: Math.round(latestActual.score || latestActual.expected || 0), color: '#8b5cf6' }
+        ])
+
         setSignalData([
           { subject: 'Jobs', A: Math.round(latestActual.nJobs), fullMark: 100 },
           { subject: 'GitHub', A: Math.round(latestActual.nGithub), fullMark: 100 },
@@ -156,8 +146,8 @@ export default function TopicPage() {
           { subject: 'News', A: Math.round(latestActual.nNews), fullMark: 100 },
         ])
 
-        const predLast = formatted[formatted.length - 1].expected;
-        const predBefore = validHistory.length > 0 ? validHistory[validHistory.length - 1].score : (predLast || 0);
+        const predLast = formatted[formatted.length - 1].expected || formatted[formatted.length - 1].score || 0;
+        const predBefore = validHistory.length > 0 ? (validHistory[validHistory.length - 1].score || 0) : predLast;
         const trendDiff = predLast - predBefore;
         
         let risk = 'STABLE'

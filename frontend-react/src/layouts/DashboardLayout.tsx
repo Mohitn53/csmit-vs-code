@@ -50,9 +50,6 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
           >
             <div className="h-16 flex items-center px-6 border-b border-white/10">
               <Link to="/" className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-emerald-500 flex items-center justify-center">
-                  <LayoutDashboard className="w-5 h-5 text-white" />
-                </div>
                 <span className="font-bold text-xl tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-white/70">
                   TechIntel
                 </span>

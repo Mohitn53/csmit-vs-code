@@ -1,0 +1,3032 @@
+[
+  {
+    "primary_name": "General-Purpose Humanoids",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Humanoid robots",
+      "Bipedal robots",
+      "Anthromorphic robots",
+      "Bipedal platforms",
+      "Autonomous humanoids",
+      "Dexterous bipedal systems",
+      "Human-centric robots",
+      "Multi-purpose humanoid platforms",
+      "Leg-based humanoids",
+      "General-purpose robotic agents",
+      "Human-form robots",
+      "Bipedal walking robots",
+      "Kinematic humanoid systems"
+    ],
+    "adzuna_job_roles": [
+      "Robotics Engineer",
+      "Control Systems Engineer",
+      "Computer Vision Engineer",
+      "Mechatronics Engineer",
+      "AI Robotics Researcher"
+    ]
+  },
+  {
+    "primary_name": "Simulate-then-Procure (Digital Twins)",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Digital Twin",
+      "Virtual Replica",
+      "Cyber-Physical Systems",
+      "Digital Proxy",
+      "Discrete Event Simulation",
+      "Virtual Prototyping",
+      "Predictive Modeling",
+      "Scenario-based Simulation",
+      "Dynamic Digital Model",
+      "Real-time Data Mirroring",
+      "Digital Lifecycle Management",
+      "Closed-loop Simulation",
+      "Synthetic Process Modeling"
+    ],
+    "adzuna_job_roles": [
+      "Digital Twin Architect",
+      "Simulation Engineer",
+      "Operations Research Analyst",
+      "IoT Systems Engineer",
+      "Supply Chain Optimization Specialist"
+    ]
+  },
+  {
+    "primary_name": "Tactile Sensing Skins",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Electronic Skin",
+      "E-Skin",
+      "Robotic Skin",
+      "Artificial Cutaneous Sensors",
+      "Piezoresistive Sensing Arrays",
+      "Capacitive Tactile Arrays",
+      "Triboelectric Sensing Skins",
+      "Piezoelectric Tactile Sensors",
+      "Multimodal E-Skin",
+      "Biomimetic Tactile Sensors",
+      "Mechanoreceptor Arrays",
+      "Flexible Tactile Sensor Boards",
+      "6-Axis Force-Torque Sensing Skins",
+      "Soft Elastomer Sensors",
+      "Optical Tactile Skins"
+    ],
+    "adzuna_job_roles": [
+      "Robotics Engineer",
+      "Sensor Research Scientist",
+      "Mechatronics Engineer",
+      "Embedded Systems Developer",
+      "Materials Engineer"
+    ]
+  },
+  {
+    "primary_name": "Agentic Night Shifts",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Agentic AI Night-Shift Intern",
+      "NightAgents",
+      "Autonomous Off-Hours Engineering",
+      "Lights-out AI Operations",
+      "Asynchronous AI Teammate",
+      "AI-driven Follow-the-Sun Development",
+      "Autonomous Triage Systems",
+      "Off-peak Agentic Task Execution",
+      "Multi-agent Maintenance Cycles",
+      "Autonomous Pull Request Generation",
+      "Automated Off-hours Refactoring",
+      "Agentic Backlog Cleanup"
+    ],
+    "adzuna_job_roles": [
+      "AI Engineer",
+      "DevOps Engineer",
+      "Site Reliability Engineer",
+      "Software Architect",
+      "Engineering Manager"
+    ]
+  },
+  {
+    "primary_name": "Bio-inspired Quadrupedal Logistics",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Bio-inspired Gait Transitions",
+      "Quadrupedal Locomotion",
+      "Legged Robotics",
+      "Biomimetic Legged Systems",
+      "Perceptive Locomotion",
+      "Bionic Quadruped Robots",
+      "Bio-inspired Coordination and Control",
+      "Autonomous Quadrupedal Vehicles",
+      "Last-mile Legged Logistics",
+      "Dynamic Motor Control",
+      "Implicit Terrain Imagination",
+      "Robust Perceptive Locomotion",
+      "Mammalian-inspired Gait Strategies",
+      "Legged Autonomous Vehicles",
+      "Bio-inspired Control Systems"
+    ],
+    "adzuna_job_roles": [
+      "Robotics Research Engineer",
+      "Control Systems Engineer",
+      "Autonomous Systems Developer",
+      "Mechatronics Engineer",
+      "AI Robotics Researcher"
+    ]
+  },
+  {
+    "primary_name": "Surgical Robotics (AI-Guided)",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Robotic-assisted surgery",
+      "AI-assisted robotic surgery",
+      "Computer-assisted surgery",
+      "Semi-autonomous surgical systems",
+      "Neuro-visual adaptive control",
+      "Digital twin-assisted surgery",
+      "Image-guided surgery",
+      "Intraoperative decision support",
+      "Surgical navigation systems",
+      "Robotic motion stabilization",
+      "Autonomous robotic surgery",
+      "Haptic feedback systems",
+      "Large vision models for surgery"
+    ],
+    "adzuna_job_roles": [
+      "Robotic Surgical Specialist",
+      "Biomedical Robotics Engineer",
+      "Surgical AI Researcher",
+      "Clinical Application Specialist",
+      "Medical Robotics Software Engineer"
+    ]
+  },
+  {
+    "primary_name": "Robotic Nervous System (IRIS 77)",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Digital Nervous System",
+      "IRIS77",
+      "Factory Operating System",
+      "Industrial IoT Data Hub",
+      "IT/OT Convergence Platform",
+      "Digital Twin Simulation System",
+      "Predictive Maintenance Framework",
+      "Prescriptive Analytics Engine",
+      "Autonomous Manufacturing Infrastructure",
+      "Smart Factory Ecosystem",
+      "Real-time Production Monitoring System",
+      "AI-driven MES",
+      "Robotic Fleet Orchestrator"
+    ],
+    "adzuna_job_roles": [
+      "Industrial AI Engineer",
+      "Robotics Systems Integrator",
+      "Smart Factory Solutions Architect",
+      "IoT Operations Manager",
+      "Automation Control Systems Engineer"
+    ]
+  },
+  {
+    "primary_name": "Autonomous Mobile Robots (AMR) 2.0",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "MassRobotics Interoperability Standard v2.0",
+      "Vision-guided Autonomous Mobile Robots",
+      "V-AMR",
+      "Collaborative Mobile Robots",
+      "Multi-vendor AMR Fleet Systems",
+      "Intelligent Self-Navigating Robots",
+      "Infrastructure-light Automation Systems",
+      "Bi-directional Mission Communication Protocols",
+      "Decentralized Robot Architecture",
+      "V-SLAM Robots",
+      "Interoperable Material Handling Systems",
+      "AI-driven Autonomous Navigation",
+      "Cross-vendor Fleet Management",
+      "Mission Communication Toolkit"
+    ],
+    "adzuna_job_roles": [
+      "Robotics Engineer",
+      "Automation Systems Integrator",
+      "Fleet Management Software Developer",
+      "Warehouse Automation Specialist",
+      "Mechatronics Design Engineer"
+    ]
+  },
+  {
+    "primary_name": "Teaching-by-Demonstration",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Learning from Demonstration",
+      "Programming by Demonstration",
+      "Imitation Learning",
+      "Demonstration-based Training",
+      "Behavior Modeling Training",
+      "Observational Learning",
+      "Behavior Cloning",
+      "Apprenticeship Learning",
+      "Inverse Reinforcement Learning",
+      "Interactive Machine Learning",
+      "Robot Learning from Demonstration",
+      "Visual Task Modeling"
+    ],
+    "adzuna_job_roles": [
+      "Instructional Designer",
+      "Robotics Engineer",
+      "Machine Learning Researcher",
+      "Learning and Development Specialist",
+      "Human-Computer Interaction Designer"
+    ]
+  },
+  {
+    "primary_name": "ROS 2 (Robot Operating System)",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "ROS2",
+      "Robot Operating System 2",
+      "Data Distribution Service",
+      "DDS",
+      "Fast RTPS",
+      "SROS2",
+      "Space ROS",
+      "rclcpp",
+      "rclpy",
+      "Real-Time Publish-Subscribe",
+      "RTPS",
+      "Quality of Service",
+      "ROS 2 Middleware"
+    ],
+    "adzuna_job_roles": [
+      "Robotics Software Engineer",
+      "Autonomous Systems Engineer",
+      "Embedded Robotics Engineer",
+      "Robotics Research Scientist"
+    ]
+  },
+  {
+    "primary_name": "Collaborative Robots (Cobots)",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Cobots",
+      "Human-Robot Collaboration (HRC)",
+      "Power and Force Limiting (PFL) Robots",
+      "Speed and Separation Monitoring (SSM)",
+      "Lead-through Teach Robots",
+      "ISO/TS 15066 Compliant Robots",
+      "Hand-guided Robots",
+      "Fenceless Robots",
+      "Safety-rated Monitored Stop (SRMS)",
+      "Collaborative Industrial Robot System",
+      "Force-sensing Robots",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "adzuna_job_roles": [
+      "Robotics Engineer",
+      "Automation Engineer",
+      "Manufacturing Systems Technician",
+      "Controls Engineer",
+      "Robotics Programmer"
+    ]
+  },
+  {
+    "primary_name": "Data Distribution Service (DDS)",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "OMG DDS",
+      "RTPS",
+      "Real-Time Publish-Subscribe Protocol",
+      "DCPS",
+      "Data-Centric Publish-Subscribe",
+      "Global Data Space",
+      "DDS-RTPS",
+      "DLRL",
+      "Data Local Reconstruction Layer",
+      "DDS Interoperability Wire Protocol",
+      "Fast DDS",
+      "Cyclone DDS"
+    ],
+    "adzuna_job_roles": [
+      "Embedded Systems Engineer",
+      "Robotics Software Engineer",
+      "Distributed Systems Architect",
+      "Autonomous Vehicle Engineer"
+    ]
+  },
+  {
+    "primary_name": "Warehouse Sortation Arms",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Articulated robotic arms",
+      "Robotic sortation systems",
+      "Pick-and-place robots",
+      "Vision-guided robotic arms",
+      "Robotic induction arms",
+      "Automated piece-picking systems",
+      "Robotic put wall systems",
+      "Unit sorting robotics",
+      "Delta sorting robots",
+      "Robotic case sorters",
+      "End-of-arm sortation tools",
+      "SCARA robots",
+      "Robotic order fulfillment arms"
+    ],
+    "adzuna_job_roles": [
+      "Robotics Engineer",
+      "Automation Technician",
+      "Warehouse Systems Engineer",
+      "Mechatronics Engineer",
+      "Controls Engineer"
+    ]
+  },
+  {
+    "primary_name": "LiDAR (Industrial Grade)",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Light Detection and Ranging",
+      "3D Laser Scanning",
+      "Time-of-Flight Sensor",
+      "Solid-State LiDAR",
+      "Scanning Laser Rangefinder",
+      "Flash LiDAR",
+      "Optical Remote Sensing",
+      "Laser Detection and Ranging",
+      "LADAR",
+      "3D Perception System",
+      "Industrial Distance Sensor",
+      "Terrestrial Laser Scanning",
+      "Multibeam LiDAR",
+      "Active Remote Sensing",
+      "Mobile Mapping System"
+    ],
+    "adzuna_job_roles": [
+      "Perception Engineer",
+      "Robotics Software Engineer",
+      "LiDAR Systems Engineer",
+      "Industrial Automation Engineer",
+      "Computer Vision Scientist"
+    ]
+  },
+  {
+    "primary_name": "Fixed-Path AGVs",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Automated Guided Vehicles",
+      "Wire-guided AGVs",
+      "Magnetic Tape Guided Vehicles",
+      "Laser-guided Vehicles",
+      "Inductive Guided Vehicles",
+      "Magnetic Spot Navigation",
+      "Automated Guided Carts",
+      "Reflector-guided AGVs",
+      "QR code-based AGVs",
+      "Unit Load Handlers",
+      "Heavy Burden Carriers",
+      "Towing AGVs",
+      "Forklift AGVs",
+      "Zone-controlled AGVs"
+    ],
+    "adzuna_job_roles": [
+      "Robotics Engineer",
+      "Automation Technician",
+      "Control Systems Engineer",
+      "Maintenance Engineer"
+    ]
+  },
+  {
+    "primary_name": "Single-Task Industrial Arms",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Fixed Automation Equipment",
+      "Hard Automation",
+      "Robotic Manipulators",
+      "Dedicated Industrial Robots",
+      "Single-purpose Robotic Arms",
+      "Linear Robots",
+      "Gantry Robots",
+      "Cartesian Coordinate Robots",
+      "SCARA Robots",
+      "Pick-and-place Manipulators",
+      "Stationary Robotic Arms",
+      "Cylindrical Robots",
+      "Dedicated End-effectors",
+      "Sequential Automation Systems"
+    ],
+    "adzuna_job_roles": [
+      "Robotics Engineer",
+      "Automation Technician",
+      "Manufacturing Engineer",
+      "Controls Engineer",
+      "Mechatronics Technician"
+    ]
+  },
+  {
+    "primary_name": "Fenced-Off Safety Cells",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Robotic Safety Enclosures",
+      "Machine Guarding Systems",
+      "Perimeter Guarding",
+      "Robot Cell Fencing",
+      "Automation Guarding",
+      "Point-of-Operation Guarding",
+      "Safety Compartment",
+      "Physical Barrier Guarding",
+      "Interlocked Safety Enclosures",
+      "Wire Mesh Guarding",
+      "T-slot Aluminum Guarding",
+      "Safety Perimeters",
+      "Safeguarding Devices"
+    ],
+    "adzuna_job_roles": [
+      "Automation Engineer",
+      "Robotics Technician",
+      "EHS Specialist",
+      "Manufacturing Engineer",
+      "Industrial Maintenance Technician"
+    ]
+  },
+  {
+    "primary_name": "Programmable Logic Controller (PLC)",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Hard PLC",
+      "Hardware PLC",
+      "Industrial Microprocessor Controller",
+      "Programmable Automation Controller",
+      "PAC",
+      "Modular PLC",
+      "Compact PLC",
+      "Ladder Logic Controller",
+      "Discrete Controller",
+      "Real-time Industrial Controller",
+      "IEC 61131-3 Controller",
+      "Distributed Control System Node",
+      "Logic Relay",
+      "Electronic Control Unit"
+    ],
+    "adzuna_job_roles": [
+      "Control Systems Engineer",
+      "PLC Programmer",
+      "Automation Engineer",
+      "Electrical Maintenance Technician",
+      "SCADA Engineer"
+    ]
+  },
+  {
+    "primary_name": "Rule-Based Path Planning",
+    "category": "Physical AI & Robotics",
+    "synonyms": [
+      "Model-based Trajectory Planning",
+      "Rule-Adaptive Path Planning",
+      "Fuzzy Logic Control",
+      "Deterministic Motion Planning",
+      "Heuristic-based Search",
+      "Kinematic State-Space Planning",
+      "Cost-Function Trajectory Generation",
+      "Constraint-Based Motion Planning",
+      "Expert Systems for Navigation",
+      "Rule-Based Local Planning",
+      "Logic-Driven Pathfinding",
+      "Procedural Path Generation"
+    ],
+    "adzuna_job_roles": [
+      "Robotics Software Engineer",
+      "Autonomous Vehicle Algorithm Engineer",
+      "Motion Planning Engineer",
+      "Navigation Systems Engineer",
+      "Control Systems Architect"
+    ]
+  },
+  {
+    "primary_name": "Neural Processing Unit",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "NPU",
+      "AI accelerator",
+      "Deep learning processor",
+      "AI processor",
+      "Tensor Processing Unit",
+      "Vision Processing Unit",
+      "ML accelerator",
+      "Neural Engine",
+      "Intelligent Processing Unit",
+      "Matrix processor",
+      "Systolic array architecture",
+      "AI engine",
+      "DLP",
+      "On-device AI chip"
+    ],
+    "adzuna_job_roles": [
+      "AI Hardware Engineer",
+      "SoC Architect",
+      "Embedded Systems Engineer",
+      "Machine Learning Engineer",
+      "Firmware Engineer"
+    ]
+  },
+  {
+    "primary_name": "Edge-Native ASICs",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "Edge-optimized ASICs",
+      "Edge-capable ASICs",
+      "Ultra-low-power ASICs",
+      "ULP ASICs",
+      "Edge AI Accelerators",
+      "Neural Processing Units",
+      "Edge TPUs",
+      "Edge System-on-Chip",
+      "Low-latency silicon",
+      "Edge-native silicon",
+      "Hardware accelerators for edge AI",
+      "In-situ processing hardware"
+    ],
+    "adzuna_job_roles": [
+      "ASIC Design Engineer",
+      "SoC Architect",
+      "Edge AI Hardware Engineer",
+      "Embedded Systems Engineer",
+      "Hardware Acceleration Engineer"
+    ]
+  },
+  {
+    "primary_name": "In-Memory Computing",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "In-memory computation",
+      "IMC",
+      "Processing-in-memory",
+      "PIM",
+      "In-memory data grid",
+      "IMDG",
+      "Computational RAM",
+      "Non-von Neumann computing",
+      "Hybrid Transactional/Analytical Processing",
+      "HTAP",
+      "In-memory database",
+      "IMDB",
+      "Main memory database system",
+      "Distributed in-memory processing",
+      "Memory-centric computing"
+    ],
+    "adzuna_job_roles": [
+      "Distributed Systems Engineer",
+      "Big Data Architect",
+      "HPC Performance Engineer",
+      "In-Memory Database Administrator",
+      "Data Platform Engineer"
+    ]
+  },
+  {
+    "primary_name": "Photonic AI Accelerator",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "Optical Neural Network",
+      "ONN",
+      "Photonic Integrated Circuit",
+      "PIC-based Accelerator",
+      "Photonic Processing Unit",
+      "PPU",
+      "Optical Matrix-Vector Multiplier",
+      "MVM Engine",
+      "Mach-Zehnder Interferometer Mesh",
+      "MZI Mesh",
+      "Photonic Tensor Core",
+      "Photonic Neural Processing Unit",
+      "Photonic NPU",
+      "Analog Photonic Computing",
+      "Photonic-Electronic Integrated Circuit"
+    ],
+    "adzuna_job_roles": [
+      "Photonics Design Engineer",
+      "AI Hardware Architect",
+      "Optical Systems Engineer",
+      "PIC Integration Engineer",
+      "Hardware Acceleration Engineer"
+    ]
+  },
+  {
+    "primary_name": "Post-Quantum Cryptography Chips",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "Quantum-Resistant Secure Microcontroller",
+      "Quantum-Safe Cryptoprocessor",
+      "ML-KEM Hardware Accelerator",
+      "ML-DSA Hardware Accelerator",
+      "Quantum-Resistant Root of Trust",
+      "PQC ASIC",
+      "Quantum-Safe SoC",
+      "Lattice-based Cryptography Chips",
+      "FIPS 203 Compliant Hardware",
+      "FIPS 204 Compliant Hardware",
+      "Quantum-Resistant Trusted Platform Module",
+      "PQC-Enabled Hardware Security Module",
+      "Code-based Cryptography Hardware",
+      "Isogeny-based Cryptography Hardware",
+      "SLH-DSA Hardware Accelerator"
+    ],
+    "adzuna_job_roles": [
+      "Cryptography Engineer",
+      "Hardware Security Architect",
+      "Embedded Security Engineer",
+      "ASIC Design Engineer",
+      "Security Researcher"
+    ]
+  },
+  {
+    "primary_name": "AI Chiplets",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "Heterogeneous Integration",
+      "Multi-Die System",
+      "System-in-Package (SiP)",
+      "Universal Chiplet Interconnect Express (UCIe)",
+      "2.5D/3D Advanced Packaging",
+      "Die-to-Die (D2D) Interconnect",
+      "Silicon Interposer",
+      "Through-Silicon Via (TSV)",
+      "Disaggregated SoC",
+      "Multi-Chip Module (MCM)",
+      "Partitioned Die",
+      "Heterogeneous Computing Modules"
+    ],
+    "adzuna_job_roles": [
+      "Advanced Packaging Engineer",
+      "Silicon Architect",
+      "SoC Design Engineer",
+      "AI Hardware Architect",
+      "Physical Design Engineer"
+    ]
+  },
+  {
+    "primary_name": "Liquid Cooling for Edge Nodes",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "Immersion Cooling",
+      "Direct-to-chip Cooling",
+      "Dielectric Liquid Cooling",
+      "Phase Change Cooling",
+      "Cold Plate Cooling",
+      "Precision Liquid Cooling",
+      "Liquid-to-Air Heat Exchange",
+      "Submersion Cooling",
+      "In-rack Liquid Cooling",
+      "Two-Phase Immersion Cooling",
+      "Single-Phase Immersion Cooling",
+      "Liquid-Cooled Edge Infrastructure"
+    ],
+    "adzuna_job_roles": [
+      "Data Center Mechanical Engineer",
+      "Thermal Management Systems Engineer",
+      "Edge Infrastructure Architect",
+      "Hardware Infrastructure Engineer",
+      "Site Reliability Engineer"
+    ]
+  },
+  {
+    "primary_name": "Edge-to-Cloud Orchestration",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "Edge-Cloud Continuum Management",
+      "Distributed Workload Orchestration",
+      "Edge-Native Application Management",
+      "Fog Computing Orchestration",
+      "Multi-Access Edge Computing Orchestration",
+      "Cloud-Edge Control Plane",
+      "Hybrid Edge-Cloud Integration",
+      "Edge-to-Cloud Lifecycle Management",
+      "Distributed Node Orchestration",
+      "Industrial IoT Workload Management",
+      "Cloud-to-Edge Data Plane Orchestration",
+      "Hierarchical Resource Orchestration"
+    ],
+    "adzuna_job_roles": [
+      "Edge Architect",
+      "IoT Systems Engineer",
+      "Cloud Infrastructure Engineer",
+      "Distributed Systems Developer",
+      "DevOps Specialist"
+    ]
+  },
+  {
+    "primary_name": "Ultra-Fast Optical Networks",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "Optical Transport Network",
+      "OTN",
+      "Dense Wavelength Division Multiplexing",
+      "DWDM",
+      "50G PON",
+      "Silicon Photonics",
+      "Coherent Optical Transmission",
+      "Space-Division Multiplexing",
+      "SDM",
+      "Reconfigurable Optical Add-Drop Multiplexers",
+      "ROADM",
+      "All-Optical Switching",
+      "Integrated Photonics",
+      "Photonic Integrated Circuits",
+      "Lithium Niobate on Insulator",
+      "Wavelength Division Multiplexing"
+    ],
+    "adzuna_job_roles": [
+      "Optical Network Engineer",
+      "Photonics Design Engineer",
+      "Optical Systems Architect",
+      "Telecommunications Network Planner",
+      "Hardware Engineer (Silicon Photonics)"
+    ]
+  },
+  {
+    "primary_name": "Neuromorphic Chips",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "Neuromorphic processors",
+      "Spiking Neural Networks (SNN) hardware",
+      "Brain-inspired computing",
+      "Event-driven processors",
+      "Non-von Neumann architecture",
+      "Asynchronous processors",
+      "Artificial synaptic devices",
+      "Silicon neurons",
+      "Neuromorphic engineering",
+      "Optoelectronic synaptic devices",
+      "Brain-like computing",
+      "Loihi",
+      "SpiNNaker",
+      "BrainScaleS",
+      "TrueNorth"
+    ],
+    "adzuna_job_roles": [
+      "Neuromorphic Engineer",
+      "Semiconductor Research Scientist",
+      "AI Hardware Architect",
+      "Computational Neuroscientist",
+      "Embedded AI Engineer"
+    ]
+  },
+  {
+    "primary_name": "ARM Architecture",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "Advanced RISC Machine",
+      "Acorn RISC Machine",
+      "AArch64",
+      "AArch32",
+      "Armv9-A",
+      "Armv8-A",
+      "SVE2",
+      "Scalable Vector Extension",
+      "A64 Instruction Set",
+      "Thumb-2",
+      "Cortex-A",
+      "Cortex-M",
+      "Cortex-R",
+      "A32 Instruction Set",
+      "Jazelle"
+    ],
+    "adzuna_job_roles": [
+      "Embedded Software Engineer",
+      "SoC Design Engineer",
+      "Firmware Developer",
+      "Hardware Architect",
+      "Kernel Engineer"
+    ]
+  },
+  {
+    "primary_name": "DDR5 Memory",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "DDR5 SDRAM",
+      "Double Data Rate 5",
+      "JEDEC JESD79-5",
+      "PC5-4800",
+      "LPDDR5",
+      "UDIMM",
+      "RDIMM",
+      "CUDIMM",
+      "CSODIMM",
+      "On-die ECC",
+      "Dual 32-bit Subchannels",
+      "Decision Feedback Equalization (DFE)",
+      "SPD Hub",
+      "PMIC-integrated RAM"
+    ],
+    "adzuna_job_roles": [
+      "Hardware Design Engineer",
+      "Memory Validation Engineer",
+      "System Architect",
+      "Data Center Engineer",
+      "Embedded Systems Engineer"
+    ]
+  },
+  {
+    "primary_name": "Industrial IoT Gateways",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "IIoT Gateway",
+      "Edge Computing Gateway",
+      "Industrial Edge Node",
+      "Protocol Converter",
+      "Industrial Data Bridge",
+      "MQTT Gateway",
+      "OPC UA Gateway",
+      "Field Area Router",
+      "Intelligent Edge Device",
+      "DIN-rail Gateway",
+      "Cellular IIoT Router",
+      "M2M Gateway",
+      "Industrial Connectivity Hub"
+    ],
+    "adzuna_job_roles": [
+      "IoT Solutions Architect",
+      "Embedded Systems Engineer",
+      "Industrial Automation Engineer",
+      "Field Application Engineer",
+      "SCADA Systems Specialist"
+    ]
+  },
+  {
+    "primary_name": "TPM (Trusted Platform Module)",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "ISO/IEC 11889",
+      "Secure Cryptoprocessor",
+      "Hardware Root of Trust",
+      "TPM 2.0",
+      "TPM 1.2",
+      "dTPM",
+      "fTPM",
+      "vTPM",
+      "Discrete Trusted Platform Module",
+      "Firmware-based TPM",
+      "Virtual Trusted Platform Module",
+      "Microsoft Pluton",
+      "TCG Main Specification",
+      "Integrated TPM",
+      "Software TPM"
+    ],
+    "adzuna_job_roles": [
+      "Cybersecurity Engineer",
+      "Hardware Security Engineer",
+      "Embedded Systems Developer",
+      "Information Security Analyst",
+      "Systems Architect"
+    ]
+  },
+  {
+    "primary_name": "FPGA (Field Programmable Gate Arrays)",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "Field-Programmable Gate Array",
+      "Programmable Logic Device",
+      "PLD",
+      "Configurable Integrated Circuit",
+      "SRAM-based FPGA",
+      "Flash-based FPGA",
+      "Antifuse-based FPGA",
+      "VHDL",
+      "Verilog",
+      "HDL",
+      "Bitstream configuration",
+      "Reconfigurable Computing",
+      "Configurable Logic Block",
+      "CLB",
+      "Heterogeneous Architecture"
+    ],
+    "adzuna_job_roles": [
+      "FPGA Engineer",
+      "Hardware Design Engineer",
+      "Embedded Systems Developer",
+      "ASIC/FPGA Design Engineer",
+      "Digital Logic Designer"
+    ]
+  },
+  {
+    "primary_name": "General-Purpose GPUs for Edge",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "GPGPU for Edge",
+      "Embedded GPU",
+      "Edge AI Accelerator",
+      "Mobile GPU Module",
+      "MXM GPU",
+      "Integrated GPU (iGPU)",
+      "NVIDIA Jetson Architecture",
+      "CUDA-enabled Edge Hardware",
+      "TensorRT-optimized GPU",
+      "Edge Computing GPU",
+      "Discrete GPU for Edge (dGPU)",
+      "Heterogeneous Edge Computing",
+      "Parallel Processing Architecture",
+      "Industrial GPU",
+      "Ruggedized GPU"
+    ],
+    "adzuna_job_roles": [
+      "Edge AI Engineer",
+      "Embedded Systems Developer",
+      "Computer Vision Engineer",
+      "Hardware Acceleration Engineer",
+      "Robotics Software Engineer"
+    ]
+  },
+  {
+    "primary_name": "Cloud-Only IoT Sensors",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "Cloud-Connected Sensors",
+      "Direct-to-Cloud IoT Nodes",
+      "Sensor-to-Cloud Architecture",
+      "IP-Addressable Sensors",
+      "Cellular IoT Endpoints",
+      "NB-IoT Sensors",
+      "LoRaWAN Cloud Nodes",
+      "Cloud-Native Telemetry Units",
+      "MQTT-Enabled Sensors",
+      "Wireless Cloud Transducers",
+      "LTE-M Integrated Sensors",
+      "SaaS-Managed IoT Hardware",
+      "Remote Cloud Data Loggers"
+    ],
+    "adzuna_job_roles": [
+      "IoT Solutions Architect",
+      "Cloud IoT Engineer",
+      "Embedded Systems Developer",
+      "Industrial Automation Engineer",
+      "IoT Security Consultant"
+    ]
+  },
+  {
+    "primary_name": "x86 for Mobile",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "IA-32",
+      "x86-64",
+      "AMD64",
+      "Intel 64",
+      "CISC",
+      "i686",
+      "Intel Atom Architecture",
+      "AMD Geode",
+      "VIA Nano",
+      "x86 Instruction Set",
+      "8086 Compatibility",
+      "Android-x86",
+      "UMPC Platform",
+      "Intel Goldmont"
+    ],
+    "adzuna_job_roles": [
+      "Embedded Systems Engineer",
+      "Firmware Developer",
+      "Systems Architect",
+      "Hardware Design Engineer",
+      "Kernel Developer"
+    ]
+  },
+  {
+    "primary_name": "Hard Disk Drive",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "HDD",
+      "Mechanical Storage",
+      "Fixed Disk",
+      "Magnetic Storage",
+      "Spinning Disk",
+      "Platter-based Storage",
+      "Direct Access Storage Device",
+      "SATA HDD",
+      "SAS HDD",
+      "Shingled Magnetic Recording",
+      "Perpendicular Magnetic Recording",
+      "Heat-Assisted Magnetic Recording",
+      "Magnetic Disk",
+      "Non-volatile Magnetic Storage"
+    ],
+    "adzuna_job_roles": [
+      "Storage Engineer",
+      "Data Center Technician",
+      "Systems Administrator",
+      "Hardware Design Engineer",
+      "Backup Administrator"
+    ]
+  },
+  {
+    "primary_name": "Proprietary Interconnects",
+    "category": "Edge & Hardware",
+    "synonyms": [
+      "Vendor-specific protocols",
+      "Custom interconnect fabric",
+      "Non-standard bus",
+      "Closed-source interfaces",
+      "Bespoke chiplet interconnects",
+      "System-on-Chip (SoC) fabric",
+      "In-house bus architectures",
+      "Private signaling protocols",
+      "Closed hardware interfaces",
+      "Custom I/O interfaces",
+      "Proprietary backplanes",
+      "Application-Specific Interconnects",
+      "Legacy physical layers",
+      "Native device interfaces"
+    ],
+    "adzuna_job_roles": [
+      "Hardware Design Engineer",
+      "Systems Integration Specialist",
+      "SoC Architect",
+      "Embedded Systems Engineer",
+      "Network Infrastructure Engineer"
+    ]
+  },
+  {
+    "primary_name": "Agentic AI Systems",
+    "category": "AI & ML Systems",
+    "synonyms": [
+      "Autonomous AI Agents",
+      "Multi-agent Systems",
+      "AI Orchestration",
+      "Agentic Workflows",
+      "Goal-oriented AI",
+      "Large Action Models",
+      "Reasoning and Acting Frameworks",
+      "Autonomous Cognitive Systems",
+      "Distributed Adaptive Systems",
+      "AI Agency",
+      "Tool-augmented LLMs",
+      "Autonomous Execution Systems"
+    ],
+    "adzuna_job_roles": [
+      "AI Engineer",
+      "Machine Learning Architect",
+      "AI Solutions Developer",
+      "MLOps Engineer",
+      "Automation Architect"
+    ]
+  },
+  {
+    "primary_name": "Enterprise RAG Architecture",
+    "category": "AI & ML Systems",
+    "synonyms": [
+      "Retrieval-Augmented Generation",
+      "Hybrid RAG",
+      "GraphRAG",
+      "Agentic RAG",
+      "Knowledge Graph-Enhanced Retrieval",
+      "Self-RAG",
+      "Adaptive RAG",
+      "Vector Search Architecture",
+      "Semantic Retrieval System",
+      "Context-Grounded LLM Framework",
+      "Multimodal RAG",
+      "Retriever-Generator Framework",
+      "RAG Pipeline",
+      "Knowledge-Grounded Generation"
+    ],
+    "adzuna_job_roles": [
+      "AI Solutions Architect",
+      "Machine Learning Engineer",
+      "LLM Engineer",
+      "Data Engineer",
+      "Generative AI Developer"
+    ]
+  },
+  {
+    "primary_name": "Autonomous Dev Agents",
+    "category": "AI & ML Systems",
+    "synonyms": [
+      "Autonomous Coding Agents (ACAs)",
+      "AI Software Engineering Agents",
+      "Agentic AI for Software Delivery",
+      "Autonomous DevOps Agents",
+      "Frontier Development Agents",
+      "Self-evolving Agent Workflows",
+      "AI-driven Code Synthesis",
+      "Multi-agent Orchestration Systems",
+      "Autonomous PR Generators",
+      "Context-persistent Dev Agents",
+      "Sandboxed AI Development Systems",
+      "Agentic CI/CD Automation"
+    ],
+    "adzuna_job_roles": [
+      "AI Software Engineer",
+      "DevOps Architect",
+      "Platform Engineer",
+      "Machine Learning Engineer",
+      "Site Reliability Engineer (SRE)"
+    ]
+  },
+  {
+    "primary_name": "Vector Databases",
+    "category": "AI & ML Systems",
+    "synonyms": [
+      "Vector Store",
+      "Vector Search Engine",
+      "Embedding Database",
+      "ANN Storage",
+      "Approximate Nearest Neighbor Database",
+      "High-Dimensional Vector Store",
+      "HNSW Indexer",
+      "IVF Indexer",
+      "k-NN Search Engine",
+      "Similarity Search System",
+      "N-dimensional Database",
+      "Semantic Search Engine"
+    ],
+    "adzuna_job_roles": [
+      "Machine Learning Engineer",
+      "AI Engineer",
+      "Data Scientist",
+      "Data Architect",
+      "Database Administrator"
+    ]
+  },
+  {
+    "primary_name": "Model Serving & Inference Optimization",
+    "category": "AI & ML Systems",
+    "synonyms": [
+      "In-flight batching",
+      "Continuous batching",
+      "Speculative decoding",
+      "PagedAttention",
+      "Tensor parallelism",
+      "Pipeline parallelism",
+      "FlashAttention",
+      "Model quantization",
+      "Model pruning",
+      "KV caching",
+      "Dynamic batching",
+      "Grouped query attention",
+      "Sequence parallelism",
+      "Model distillation"
+    ],
+    "adzuna_job_roles": [
+      "Machine Learning Engineer",
+      "MLOps Engineer",
+      "AI Infrastructure Engineer",
+      "Deep Learning Performance Engineer"
+    ]
+  },
+  {
+    "primary_name": "Federated Learning",
+    "category": "AI & ML Systems",
+    "synonyms": [
+      "Collaborative Learning",
+      "Decentralized Machine Learning",
+      "Privacy-Preserving Machine Learning",
+      "Distributed ML",
+      "Federated Averaging",
+      "FedAvg",
+      "Edge AI Training",
+      "On-device Machine Learning",
+      "Cross-silo Federated Learning",
+      "Cross-device Federated Learning",
+      "Model Aggregation",
+      "Secure Federated Learning"
+    ],
+    "adzuna_job_roles": [
+      "Machine Learning Engineer",
+      "AI Research Scientist",
+      "Data Scientist",
+      "Distributed Systems Engineer",
+      "Edge AI Specialist"
+    ]
+  },
+  {
+    "primary_name": "Synthetic Data Platforms",
+    "category": "AI & ML Systems",
+    "synonyms": [
+      "Synthetic Data Generation",
+      "SDG",
+      "Privacy-Preserving Data Synthesis",
+      "AI-Generated Synthetic Data",
+      "Differential Privacy",
+      "Test Data Management",
+      "Data Masking",
+      "Data Anonymization",
+      "Tabular Data Synthesis",
+      "Generative Data Augmentation",
+      "Digital Twin Data",
+      "Mock Data Generation"
+    ],
+    "adzuna_job_roles": [
+      "Machine Learning Engineer",
+      "Data Engineer",
+      "Data Scientist",
+      "Privacy Engineer",
+      "AI Researcher"
+    ]
+  },
+  {
+    "primary_name": "AI Security & Model Guardrails",
+    "category": "AI & ML Systems",
+    "synonyms": [
+      "LLM Guardrails",
+      "Prompt Injection Defense",
+      "Adversarial Robustness",
+      "Input/Output Sanitization",
+      "Constitutional AI",
+      "Semantic Validation",
+      "Model Alignment",
+      "HAP Filtering",
+      "PII Redaction",
+      "Jailbreak Prevention",
+      "Automated Red Teaming",
+      "Model Hallucination Mitigation"
+    ],
+    "adzuna_job_roles": [
+      "AI Security Engineer",
+      "MLOps Engineer",
+      "Responsible AI Architect",
+      "AI Safety Specialist",
+      "Machine Learning Security Researcher"
+    ]
+  },
+  {
+    "primary_name": "AI Observability & Drift Monitoring",
+    "category": "AI & ML Systems",
+    "synonyms": [
+      "Model Observability",
+      "Model Drift Detection",
+      "Data Drift Monitoring",
+      "ML Performance Monitoring",
+      "Inference Analysis",
+      "Semantic Drift Detection",
+      "LLM Monitoring",
+      "Token Usage Tracking",
+      "Model Latency Monitoring",
+      "Inference Throughput Tracking",
+      "AIOps",
+      "Model Reliability Engineering"
+    ],
+    "adzuna_job_roles": [
+      "MLOps Engineer",
+      "Machine Learning Engineer",
+      "Data Scientist",
+      "AI Reliability Engineer",
+      "DevOps Engineer"
+    ]
+  },
+  {
+    "primary_name": "AI Hardware-aware Optimization",
+    "category": "AI & ML Systems",
+    "synonyms": [
+      "Hardware-aware Training",
+      "Hardware-aware Neural Architecture Search",
+      "HW-NAS",
+      "Hardware-Software Co-design",
+      "Quantization-Aware Training",
+      "QAT",
+      "Edge AI Optimization",
+      "Device-Aware DNN Design",
+      "Resource-Constrained Model Optimization",
+      "Hardware-Informed NAS",
+      "Deployment-Specific AI Optimization",
+      "Hardware-Adaptive Deep Learning",
+      "In-Memory Computing Optimization",
+      "Latency-Aware Optimization",
+      "Energy-Aware Neural Network Design"
+    ],
+    "adzuna_job_roles": [
+      "Machine Learning Compiler Engineer",
+      "Edge AI Engineer",
+      "AI Silicon Architect",
+      "Embedded Machine Learning Specialist",
+      "Deep Learning Hardware Researcher"
+    ]
+  },
+  {
+    "primary_name": "Multi-Cloud AI Orchestration",
+    "category": "Cloud & Infrastructure",
+    "synonyms": [
+      "Multi-cloud AI networking",
+      "Distributed AI pipeline orchestration",
+      "Hybrid cloud ML orchestration",
+      "Multi-agent AI systems orchestration",
+      "Cloud-native ML workflow automation",
+      "Cross-cloud model serving",
+      "Multi-cloud inference management",
+      "Distributed execution orchestration",
+      "Federated AI infrastructure management",
+      "Infrastructure abstraction for ML",
+      "Multi-cloud RAG pipeline management",
+      "Kubernetes-native AI orchestration"
+    ],
+    "adzuna_job_roles": [
+      "AI Architect",
+      "MLOps Engineer",
+      "Cloud Infrastructure Architect",
+      "Machine Learning Engineer",
+      "Platform Engineer"
+    ]
+  },
+  {
+    "primary_name": "Serverless AI Compute",
+    "category": "Cloud & Infrastructure",
+    "synonyms": [
+      "Serverless GPU",
+      "AI-optimized FaaS",
+      "Managed AI Inference",
+      "On-demand ML Training",
+      "Serverless Inference Endpoints",
+      "GPU-enabled Cloud Run",
+      "Ephemeral AI Workloads",
+      "Automated AI Scaling",
+      "Managed Machine Learning Compute",
+      "Decentralized AI Compute",
+      "Serverless ML Pipelines",
+      "GPU-as-a-Service",
+      "Serverless Batch Processing",
+      "Serverless Model Hosting",
+      "Elastic AI Infrastructure"
+    ],
+    "adzuna_job_roles": [
+      "Machine Learning Engineer",
+      "Cloud Solutions Architect",
+      "MLOps Engineer",
+      "AI Infrastructure Engineer",
+      "Data Scientist"
+    ]
+  },
+  {
+    "primary_name": "Edge AI Infrastructure",
+    "category": "Cloud & Infrastructure",
+    "synonyms": [
+      "Edge Intelligence",
+      "TinyML",
+      "On-device Inference",
+      "Federated Learning Systems",
+      "Multi-access Edge Computing",
+      "Distributed AI Architecture",
+      "Embedded AI Hardware",
+      "Localized Compute Clusters",
+      "In-situ Data Processing",
+      "Edge-to-Cloud Orchestration",
+      "Mobile Edge Computing",
+      "Heterogeneous Computing Infrastructure"
+    ],
+    "adzuna_job_roles": [
+      "Edge AI Engineer",
+      "IoT Solutions Architect",
+      "Embedded Systems Developer",
+      "MLOps Engineer",
+      "Distributed Systems Engineer"
+    ]
+  },
+  {
+    "primary_name": "Zero-Trust Architecture",
+    "category": "Cloud & Infrastructure",
+    "synonyms": [
+      "ZTA",
+      "Zero Trust Network Access",
+      "ZTNA",
+      "Software-Defined Perimeter",
+      "SDP",
+      "Micro-segmentation",
+      "NIST SP 800-207",
+      "Identity-Centric Security",
+      "Least Privilege Access Control",
+      "Policy Enforcement Point",
+      "Policy Decision Point",
+      "Policy Administration Point",
+      "Attribute-Based Access Control",
+      "Continuous Adaptive Risk and Trust Assessment",
+      "Perimeterless Security"
+    ],
+    "adzuna_job_roles": [
+      "Cybersecurity Architect",
+      "Network Security Engineer",
+      "Identity and Access Management Specialist",
+      "Security Systems Analyst",
+      "Zero Trust Strategy Lead"
+    ]
+  },
+  {
+    "primary_name": "Confidential Computing",
+    "category": "Cloud & Infrastructure",
+    "synonyms": [
+      "Trusted Execution Environment",
+      "TEE",
+      "Secure Enclave",
+      "Intel SGX",
+      "AMD SEV",
+      "ARM TrustZone",
+      "Remote Attestation",
+      "Memory Encryption",
+      "Runtime Encryption",
+      "Hardware-based Isolation",
+      "Privacy-Enhancing Technology",
+      "PET",
+      "AWS Nitro Enclaves",
+      "Shielded VM"
+    ],
+    "adzuna_job_roles": [
+      "Cloud Security Engineer",
+      "Security Architect",
+      "Privacy Engineer",
+      "Cryptographer",
+      "DevSecOps Engineer"
+    ]
+  },
+  {
+    "primary_name": "Quantum-Safe Cryptography",
+    "category": "Security",
+    "synonyms": [
+      "Post-Quantum Cryptography",
+      "PQC",
+      "Quantum-Resistant Cryptography",
+      "Quantum-Proof Cryptography",
+      "Lattice-based Cryptography",
+      "ML-KEM",
+      "CRYSTALS-Kyber",
+      "ML-DSA",
+      "CRYSTALS-Dilithium",
+      "SLH-DSA",
+      "SPHINCSPlus",
+      "FN-DSA",
+      "FALCON",
+      "Hash-based signatures",
+      "Quantum Key Distribution"
+    ],
+    "adzuna_job_roles": [
+      "Cryptographer",
+      "Security Architect",
+      "Cybersecurity Researcher",
+      "Quantum Security Engineer"
+    ]
+  },
+  {
+    "primary_name": "Automated Threat Detection",
+    "category": "Security",
+    "synonyms": [
+      "Threat Detection and Response (TDR)",
+      "Threat Detection and Incident Response (TDIR)",
+      "Automated Incident Response (AIR)",
+      "Behavioral Analytics",
+      "Intrusion Detection System (IDS)",
+      "Signature-based detection",
+      "Cross-telemetry detection",
+      "Automated remediation",
+      "AI-driven security analytics",
+      "MITRE ATT&CK alignment",
+      "Sandboxing",
+      "Agentic AI automation",
+      "Real-time telemetry monitoring",
+      "Malicious behavior protection",
+      "Security Orchestration, Automation, and Response (SOAR)"
+    ],
+    "adzuna_job_roles": [
+      "SOC Analyst",
+      "Incident Responder",
+      "Cybersecurity Engineer",
+      "Threat Intelligence Analyst",
+      "Security Automation Engineer"
+    ]
+  },
+  {
+    "primary_name": "Identity-First Security Systems",
+    "category": "Security",
+    "synonyms": [
+      "Identity-Centric Security",
+      "Identity and Access Management",
+      "Zero Trust Architecture",
+      "Privileged Access Management",
+      "Non-Human Identity Management",
+      "Context-Aware Access Control",
+      "Adaptive Authentication",
+      "Phishing-Resistant MFA",
+      "Certificate-Based Authentication",
+      "Least Privilege Enforcement",
+      "Identity-Based Perimeter",
+      "Continuous Risk-Based Authentication"
+    ],
+    "adzuna_job_roles": [
+      "IAM Architect",
+      "Identity and Access Management Engineer",
+      "Cybersecurity Architect",
+      "Security Analyst",
+      "Zero Trust Specialist"
+    ]
+  },
+  {
+    "primary_name": "Real-time Stream Processing",
+    "category": "Data & Systems",
+    "synonyms": [
+      "Event Stream Processing",
+      "Data in Motion",
+      "Continuous Data Processing",
+      "Streaming Data Integration",
+      "Near Real-time Processing",
+      "In-memory Stream Processing",
+      "Streaming SQL",
+      "Complex Event Processing",
+      "Real-time Data Streaming",
+      "Change Data Capture",
+      "Event-Driven Architecture",
+      "Message Streaming"
+    ],
+    "adzuna_job_roles": [
+      "Data Engineer",
+      "Streaming Data Engineer",
+      "Big Data Architect",
+      "Data Infrastructure Engineer",
+      "Real-time Analytics Engineer"
+    ]
+  },
+  {
+    "primary_name": "Data Mesh Architecture",
+    "category": "Data & Systems",
+    "synonyms": [
+      "Domain-oriented decentralization",
+      "Federated computational governance",
+      "Distributed data architecture",
+      "Data-as-a-Product",
+      "Self-serve data infrastructure as a platform",
+      "Analytical data plane",
+      "Decentralized data architecture",
+      "Domain-driven data architecture",
+      "Federated data management",
+      "Distributed analytical plane",
+      "Logical data mesh",
+      "Polyglot data architecture",
+      "Domain data ownership",
+      "Computational data governance"
+    ],
+    "adzuna_job_roles": [
+      "Data Architect",
+      "Data Engineer",
+      "Data Product Manager",
+      "Analytics Engineer",
+      "Enterprise Data Architect"
+    ]
+  },
+  {
+    "primary_name": "Privacy-Enhancing Technologies (PETs)",
+    "category": "Data & Systems",
+    "synonyms": [
+      "Privacy-Preserving Technologies",
+      "Differential Privacy",
+      "Secure Multi-Party Computation",
+      "Fully Homomorphic Encryption",
+      "Federated Learning",
+      "Confidential Computing",
+      "Trusted Execution Environments",
+      "Synthetic Data Generation",
+      "Zero-Knowledge Proofs",
+      "Private Set Intersection",
+      "Secure Enclaves",
+      "Anonymization",
+      "Pseudonymization",
+      "Distributed Data Analysis"
+    ],
+    "adzuna_job_roles": [
+      "Privacy Engineer",
+      "Data Privacy Architect",
+      "Cryptography Engineer",
+      "Data Protection Officer",
+      "Information Security Analyst"
+    ]
+  },
+  {
+    "primary_name": "Differentiable Programming",
+    "category": "Emerging Domains",
+    "synonyms": [
+      "Automatic Differentiation",
+      "Autodiff",
+      "Software 2.0",
+      "Algorithmic Differentiation",
+      "Differentiable Functional Programming",
+      "Reverse-mode AD",
+      "Forward-mode AD",
+      "Computation Graphs",
+      "Differentiable Modeling",
+      "Gradient-based Optimization",
+      "End-to-end Differentiable Architecture",
+      "Differentiable Simulation"
+    ],
+    "adzuna_job_roles": [
+      "Machine Learning Engineer",
+      "Research Scientist",
+      "Scientific Computing Engineer",
+      "Deep Learning Researcher",
+      "Simulation Software Engineer"
+    ]
+  },
+  {
+    "primary_name": "AI-native Programming Languages",
+    "category": "Emerging Domains",
+    "synonyms": [
+      "Mojo",
+      "Julia",
+      "Python",
+      "Lisp",
+      "R",
+      "C++",
+      "Rust",
+      "Wolfram Language",
+      "Scala",
+      "Swift",
+      "C#",
+      "JavaScript",
+      "TypeScript",
+      "Prolog",
+      "Haskell"
+    ],
+    "adzuna_job_roles": [
+      "Machine Learning Engineer",
+      "Data Scientist",
+      "AI Software Developer",
+      "Deep Learning Engineer",
+      "NLP Engineer"
+    ]
+  },
+  {
+    "primary_name": "AI-Integrated Platform Engineering",
+    "category": "Emerging Domains",
+    "synonyms": [
+      "AI Platform Engineering",
+      "AI-powered Internal Developer Platforms",
+      "AIOps",
+      "Intelligent Infrastructure Automation",
+      "AI-driven IDP",
+      "ML-enhanced Platform Engineering",
+      "Predictive Infrastructure Management",
+      "GenAI Operations",
+      "Self-healing Platform",
+      "Autonomous Infrastructure",
+      "AI-augmented SDLC",
+      "Automated IaC Orchestration"
+    ],
+    "adzuna_job_roles": [
+      "Platform Engineer",
+      "Site Reliability Engineer",
+      "Cloud Architect",
+      "Infrastructure Engineer",
+      "DevOps Engineer"
+    ]
+  },
+  {
+    "primary_name": "Kubernetes & Container Orchestration",
+    "category": "Core Development",
+    "synonyms": [
+      "K8s",
+      "Container Management System",
+      "Docker Swarm",
+      "Apache Mesos",
+      "Red Hat OpenShift",
+      "Amazon EKS",
+      "Google Kubernetes Engine",
+      "Azure Kubernetes Service",
+      "HashiCorp Nomad",
+      "Container Scheduling",
+      "Cloud-Native Infrastructure",
+      "Container Orchestration Platform"
+    ],
+    "adzuna_job_roles": [
+      "DevOps Engineer",
+      "Cloud Architect",
+      "Site Reliability Engineer",
+      "Platform Engineer",
+      "Kubernetes Administrator"
+    ]
+  },
+  {
+    "primary_name": "CI/CD Pipelines",
+    "category": "Core Development",
+    "synonyms": [
+      "Continuous Integration",
+      "Continuous Delivery",
+      "Continuous Deployment",
+      "Software Delivery Pipeline",
+      "Build Automation",
+      "Release Automation",
+      "Pipeline-as-Code",
+      "Deployment Orchestration",
+      "Automated Deployment Pipeline",
+      "DevOps Pipeline",
+      "Build Pipeline",
+      "CI/CD Workflow"
+    ],
+    "adzuna_job_roles": [
+      "DevOps Engineer",
+      "Site Reliability Engineer",
+      "Platform Engineer",
+      "Release Engineer",
+      "Cloud Engineer"
+    ]
+  },
+  {
+    "primary_name": "Microservices Architecture",
+    "category": "Core Development",
+    "synonyms": [
+      "Microservices",
+      "MSA",
+      "Distributed Architecture",
+      "Cloud-Native Architecture",
+      "Modular Services",
+      "Service-Oriented Architecture",
+      "Loosely Coupled Services",
+      "API-Driven Architecture",
+      "Componentized Architecture",
+      "Granular Services",
+      "Decentralized Architecture",
+      "Independent Service Units"
+    ],
+    "adzuna_job_roles": [
+      "Software Architect",
+      "Cloud Architect",
+      "DevOps Engineer",
+      "Backend Developer",
+      "Site Reliability Engineer"
+    ]
+  },
+  {
+    "primary_name": "Traditional MLOps",
+    "category": "Data & ML",
+    "synonyms": [
+      "Machine Learning Operations",
+      "MLOps",
+      "Model Lifecycle Management",
+      "CD4ML",
+      "Continuous Delivery for Machine Learning",
+      "ML CI/CD",
+      "Model Versioning",
+      "ML Pipeline Orchestration",
+      "Experiment Tracking",
+      "Model Registry Management",
+      "Automated Model Retraining",
+      "ML Infrastructure Automation",
+      "Model Drift Monitoring"
+    ],
+    "adzuna_job_roles": [
+      "MLOps Engineer",
+      "Machine Learning Engineer",
+      "Data Scientist",
+      "Data Engineer",
+      "Infrastructure Engineer"
+    ]
+  },
+  {
+    "primary_name": "Data Lakes / Lakehouse Architectures",
+    "category": "Data & ML",
+    "synonyms": [
+      "Data Lakehouse",
+      "Cloud Data Lake",
+      "Delta Lake",
+      "Object Storage Architecture",
+      "Medallion Architecture",
+      "ACID-compliant Data Lake",
+      "Apache Iceberg",
+      "Apache Hudi",
+      "Cloud Object Storage",
+      "Table Format Layer",
+      "Unified Data Platform",
+      "Big Data Repository",
+      "Distributed File System",
+      "Schema-on-Read Repository"
+    ],
+    "adzuna_job_roles": [
+      "Data Engineer",
+      "Data Architect",
+      "Analytics Engineer",
+      "Big Data Architect",
+      "Machine Learning Engineer"
+    ]
+  },
+  {
+    "primary_name": "Endpoint Security Platforms",
+    "category": "Security",
+    "synonyms": [
+      "EPP",
+      "Endpoint Protection Platform",
+      "EDR",
+      "Endpoint Detection and Response",
+      "XDR",
+      "Extended Detection and Response",
+      "NGAV",
+      "Next-Generation Antivirus",
+      "HIPS",
+      "Host-based Intrusion Prevention System",
+      "Host-based Firewall",
+      "Device Control",
+      "MDR",
+      "Managed Detection and Response",
+      "Endpoint Forensics"
+    ],
+    "adzuna_job_roles": [
+      "Security Operations Center Analyst",
+      "Endpoint Security Engineer",
+      "Incident Response Specialist",
+      "Cybersecurity Architect",
+      "Information Security Analyst"
+    ]
+  },
+  {
+    "primary_name": "API Security Gateways",
+    "category": "Security",
+    "synonyms": [
+      "API Gateway",
+      "API Firewall",
+      "API Proxy",
+      "Edge Gateway",
+      "Ingress Controller",
+      "Policy Enforcement Point",
+      "Secure API Proxy",
+      "Microservices Gateway",
+      "API Management Proxy",
+      "OAuth 2.0 Resource Server",
+      "Cloud Edge Proxy",
+      "B2B Gateway",
+      "XML Gateway",
+      "Service Mesh Ingress",
+      "API Traffic Manager"
+    ],
+    "adzuna_job_roles": [
+      "API Architect",
+      "Application Security Engineer",
+      "DevSecOps Engineer",
+      "Cloud Security Architect",
+      "API Platform Engineer"
+    ]
+  },
+  {
+    "primary_name": "Generic Low-Code AI Builders",
+    "category": "AI Layer",
+    "synonyms": [
+      "Low-Code AI Platforms",
+      "No-Code AI Development Tools",
+      "LLM Orchestration Frameworks",
+      "Agentic Workflow Platforms",
+      "Visual RAG Orchestrators",
+      "AI Application Builders",
+      "Generative AI Low-Code Tools",
+      "LLM Pipeline Builders",
+      "Conversational AI Platforms",
+      "AutoML Toolsets",
+      "Visual AI Workflow Engines",
+      "AI Agent Frameworks"
+    ],
+    "adzuna_job_roles": [
+      "AI Developer",
+      "Automation Engineer",
+      "AI Solutions Architect",
+      "Product Manager",
+      "Machine Learning Engineer"
+    ]
+  },
+  {
+    "primary_name": "Prompt Marketplace Platforms",
+    "category": "AI Layer",
+    "synonyms": [
+      "Prompt Commerce Platforms",
+      "AI Prompt Repositories",
+      "Prompt Engineering Marketplaces",
+      "LLM Prompt Libraries",
+      "Generative AI Prompt Hubs",
+      "AI Asset Directories",
+      "Prompt Template Exchanges",
+      "Prompt Management Systems",
+      "AI Prompt Galleries",
+      "Text-to-Image Prompt Repositories",
+      "Prompt Distribution Platforms",
+      "AI Prompt Stores",
+      "Prompt Asset Management Platforms"
+    ],
+    "adzuna_job_roles": [
+      "Prompt Engineer",
+      "AI Content Strategist",
+      "Generative AI Developer",
+      "NLP Engineer",
+      "AI Solutions Architect"
+    ]
+  },
+  {
+    "primary_name": "Chatbot SaaS",
+    "category": "AI Layer",
+    "synonyms": [
+      "Conversational AI Platform",
+      "Natural Language Understanding Bot",
+      "NLU Platform",
+      "Customer Service Automation Software",
+      "Virtual Customer Assistant",
+      "Automated Support Interface",
+      "Low-code Chatbot Builder",
+      "Cloud-native Conversational Agent",
+      "AI Helpdesk Integration",
+      "Multichannel Bot Platform",
+      "Agentic AI System",
+      "API-driven Support Bot"
+    ],
+    "adzuna_job_roles": [
+      "Conversational AI Engineer",
+      "Customer Success Manager",
+      "Support Operations Specialist",
+      "Product Manager",
+      "AI Implementation Consultant"
+    ]
+  },
+  {
+    "primary_name": "NFT Utility Platforms",
+    "category": "Blockchain / Web3",
+    "synonyms": [
+      "Token-Gating Protocols",
+      "Utility NFT Infrastructure",
+      "Smart Contract Membership Platforms",
+      "Programmable NFT Frameworks",
+      "ERC-721 Functional Extensions",
+      "ERC-1155 Multi-Token Standards",
+      "Dynamic NFT (dNFT) Architecture",
+      "Tokenized Loyalty Systems",
+      "Blockchain Ticketing Infrastructure",
+      "Web3 Access Control Systems",
+      "Token-Enabled Governance Frameworks",
+      "NFT Middleware",
+      "Blockchain Reward Systems",
+      "NFT Verification Services"
+    ],
+    "adzuna_job_roles": [
+      "Blockchain Developer",
+      "Smart Contract Engineer",
+      "Web3 Product Manager",
+      "Solidity Developer",
+      "Web3 Architect"
+    ]
+  },
+  {
+    "primary_name": "Metaverse Development Ecosystems",
+    "category": "Blockchain / Web3",
+    "synonyms": [
+      "Spatial Computing Frameworks",
+      "Immersive Development Environments",
+      "Extended Reality (XR) SDKs",
+      "Persistent Virtual World Engines",
+      "3D Spatial Runtimes",
+      "Decentralized Metaverse Infrastructure",
+      "Web3 Virtual Environments",
+      "Spatial Web Architectures",
+      "Digital Twin Development Platforms",
+      "Real-time Rendering Ecosystems",
+      "Virtual Economy Frameworks",
+      "Metaverse-as-a-Service (MaaS)",
+      "Avatar-based Social Architectures",
+      "Cross-platform XR Middleware",
+      "Spatial Interaction Systems"
+    ],
+    "adzuna_job_roles": [
+      "Metaverse Architect",
+      "Spatial Software Engineer",
+      "XR Developer",
+      "Immersive Content Creator",
+      "3D World Builder"
+    ]
+  },
+  {
+    "primary_name": "AI-Native Electronic Design (EDA)",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "AI4EDA",
+      "AI-driven design automation",
+      "Large Circuit Models",
+      "LCMs",
+      "AI-native circuit representation learning",
+      "ML-based EDA optimization",
+      "Reinforcement learning for IC design",
+      "AI-augmented physical design",
+      "ML-based PPA estimation",
+      "Agentic AI for chip design",
+      "AI-based Design for Manufacturability",
+      "Neural circuit simulation",
+      "Foundation models for VLSI",
+      "AI-driven logic synthesis"
+    ],
+    "adzuna_job_roles": [
+      "EDA Software Engineer",
+      "Machine Learning Engineer (Semiconductors)",
+      "VLSI Design Engineer",
+      "Hardware Architect",
+      "Design Verification Engineer"
+    ]
+  },
+  {
+    "primary_name": "Zonal Vehicle Architecture",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "Zonal E/E Architecture",
+      "Location-based E/E architecture",
+      "Zone-based control system",
+      "Zonal gateway architecture",
+      "Automotive Ethernet backbone",
+      "10BASE-T1S",
+      "HPCU architecture",
+      "Centralized E/E design",
+      "Zone Control Unit (ZCU)",
+      "Smart power distribution network",
+      "SDV hardware abstraction",
+      "In-vehicle networking (IVN) zonal model"
+    ],
+    "adzuna_job_roles": [
+      "Automotive Systems Architect",
+      "E/E Architecture Design Engineer",
+      "In-Vehicle Networking Engineer",
+      "Embedded Systems Developer",
+      "Vehicle Integration Lead"
+    ]
+  },
+  {
+    "primary_name": "Urban Robotaxi Expansion",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "Level 4 Autonomy",
+      "Automated Driving Systems",
+      "Vehicle-to-Everything",
+      "V2X Connectivity",
+      "High-Definition Mapping",
+      "Driverless Mobility-as-a-Service",
+      "AI-based Perception Systems",
+      "Autonomous Fleet Management",
+      "Intelligent Transport Systems",
+      "Remote Assistance Monitoring",
+      "Smart City Digital Infrastructure",
+      "AV TEST Frameworks",
+      "Fleet Telemetry"
+    ],
+    "adzuna_job_roles": [
+      "Autonomous Vehicle Remote Assistant",
+      "Fleet Operations Manager",
+      "Perception Software Engineer",
+      "V2X Systems Architect",
+      "Mapping Operations Specialist"
+    ]
+  },
+  {
+    "primary_name": "V2X (Vehicle-to-Everything)",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "C-V2X",
+      "DSRC",
+      "V2V",
+      "V2I",
+      "V2P",
+      "V2N",
+      "IEEE 802.11p",
+      "LTE-V2X",
+      "5G-V2X",
+      "PC5 interface",
+      "WAVE (Wireless Access in Vehicular Environments)",
+      "C2X",
+      "ITS-G5",
+      "3GPP Release 14/15/16"
+    ],
+    "adzuna_job_roles": [
+      "Connected Vehicle Systems Engineer",
+      "V2X Embedded Software Engineer",
+      "ITS Infrastructure Architect",
+      "Automotive Protocol Engineer",
+      "Autonomous Vehicle Communication Specialist"
+    ]
+  },
+  {
+    "primary_name": "In-Cabin Interior Intelligence",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "Driver Monitoring Systems (DMS)",
+      "Occupant Monitoring Systems (OMS)",
+      "Interior Monitoring Systems (IMS)",
+      "Child Presence Detection (CPD)",
+      "In-Cabin Sensing",
+      "Occupant Classification System (OCS)",
+      "Gaze and Gesture Recognition",
+      "Interior Scene Understanding",
+      "Multi-modal Sensor Fusion",
+      "Driver Distraction and Attention Detection (DADD)",
+      "Automotive Vision-Language Models (VLM)",
+      "Physiological Sensing",
+      "Driver Distraction Warning (DDW)"
+    ],
+    "adzuna_job_roles": [
+      "Computer Vision Engineer",
+      "Automotive Machine Learning Engineer",
+      "Embedded Systems Engineer",
+      "HMI Systems Architect",
+      "Perception Systems Specialist"
+    ]
+  },
+  {
+    "primary_name": "Automotive Digital Twins",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "Virtual Vehicle Prototype",
+      "Digital Vehicle Shadow",
+      "Cyber-Physical Automotive System",
+      "Discrete Event Simulation",
+      "Sensor Fusion Modeling",
+      "Real-time Prognostic Twin",
+      "Vehicle-to-Cloud Simulation",
+      "3D Factory Simulation",
+      "Automotive Predictive Maintenance Model",
+      "Industrial IoT Replica",
+      "Digital Thread",
+      "Dynamic Vehicle State Representation"
+    ],
+    "adzuna_job_roles": [
+      "Digital Twin Engineer",
+      "Automotive Simulation Specialist",
+      "IoT Solutions Architect",
+      "Predictive Analytics Engineer",
+      "Manufacturing Systems Integrator"
+    ]
+  },
+  {
+    "primary_name": "Predictive Fleet Load Balancing",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "Dynamic Fleet Allocation",
+      "Predictive Workload Balancing",
+      "Remaining Useful Life Prognosis",
+      "RUL-based Fleet Scheduling",
+      "Operational Demand Forecasting",
+      "Smart Grid Demand-Response Integration",
+      "CANBus Telematics Analytics",
+      "Predictive Fleet Energy Management",
+      "Automated Load Scoring",
+      "Fleet Network Simulation",
+      "Vehicle Availability Modeling",
+      "Tactical Logistics Procurement Optimization"
+    ],
+    "adzuna_job_roles": [
+      "Fleet Operations Manager",
+      "Logistics Data Scientist",
+      "Reliability Engineer",
+      "IoT Solutions Architect",
+      "Supply Chain Optimization Analyst"
+    ]
+  },
+  {
+    "primary_name": "800-Volt Ultra-Fast Charging",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "800V architecture",
+      "800V high-voltage platform",
+      "800V electrical system",
+      "800V DC fast charging",
+      "High-voltage EV platform",
+      "800V powertrain architecture",
+      "Ultra-fast DC charging",
+      "800V battery system",
+      "High-power charging (HPC)",
+      "Level 3 high-voltage charging",
+      "800V power electronics",
+      "800V charging infrastructure"
+    ],
+    "adzuna_job_roles": [
+      "EV Systems Engineer",
+      "Power Electronics Engineer",
+      "BMS Engineer",
+      "Charging Infrastructure Engineer",
+      "High-Voltage Systems Designer"
+    ]
+  },
+  {
+    "primary_name": "ISO/SAE 21434",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "ISO/SAE 21434:2021",
+      "Road vehicles - Cybersecurity engineering",
+      "Threat Analysis and Risk Assessment",
+      "TARA",
+      "Cybersecurity Management System",
+      "CSMS",
+      "UN Regulation No. 155",
+      "UN R155",
+      "SAE J3061",
+      "V2X Security",
+      "In-vehicle Network Security",
+      "SOME/IP security",
+      "DoIP security",
+      "Automotive Cyber Resilience"
+    ],
+    "adzuna_job_roles": [
+      "Automotive Cybersecurity Engineer",
+      "Product Security Architect",
+      "Cybersecurity Compliance Manager",
+      "Embedded Security Engineer",
+      "Vehicle Systems Security Analyst"
+    ]
+  },
+  {
+    "primary_name": "Level 2+ Urban Autonomy",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "L2+",
+      "Enhanced ADAS",
+      "Hands-off Eyes-on driving",
+      "Partial driving automation plus",
+      "Supervised autonomous driving",
+      "SAE Level 2+",
+      "Map-supported ADAS",
+      "End-to-end intelligent driving",
+      "Urban Pilot",
+      "Cross-validation sensing systems",
+      "REM-enabled ADAS",
+      "Advanced driver assistance systems plus"
+    ],
+    "adzuna_job_roles": [
+      "ADAS Engineer",
+      "Autonomous Vehicle Perception Engineer",
+      "Sensor Fusion Engineer",
+      "Automotive Systems Safety Engineer",
+      "Computer Vision Engineer"
+    ]
+  },
+  {
+    "primary_name": "Zonal Software Stacks",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "Zonal E/E Architecture",
+      "Software-Defined Vehicle Stack",
+      "Centralized Vehicle Software Platform",
+      "AUTOSAR Adaptive Platform",
+      "Service-Oriented Architecture (SOA)",
+      "Zonal Controller Software",
+      "Vehicle OS",
+      "Automotive Middleware",
+      "Ethernet TSN",
+      "Diagnostics over IP (DoIP)",
+      "Automotive RTOS",
+      "Virtualized Automotive Stack",
+      "Embedded Hypervisor",
+      "Central Compute Unit Software",
+      "ZCU Firmware"
+    ],
+    "adzuna_job_roles": [
+      "Embedded Software Engineer",
+      "Vehicle Software Architect",
+      "ADAS Software Engineer",
+      "Automotive Cybersecurity Engineer",
+      "Systems Integration Engineer"
+    ]
+  },
+  {
+    "primary_name": "Predictive Car Co-pilots",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "Advanced Driver Assistance Systems",
+      "ADAS",
+      "Predictive Maintenance Systems",
+      "In-Vehicle AI Agents",
+      "Intelligent Vehicle Diagnostics",
+      "Proactive Telematics",
+      "Automotive LLM Assistants",
+      "Deep Learning Radar Processing",
+      "Smart Cockpit Interfaces",
+      "V2X Analytics",
+      "Edge AI for Mobility",
+      "Predictive Forward Collision Warning",
+      "Advanced Cruise Control Systems",
+      "Autonomous Driving Support Systems",
+      "Sensor Fusion Modules"
+    ],
+    "adzuna_job_roles": [
+      "ADAS Engineer",
+      "Machine Learning Engineer",
+      "Vehicle Systems Architect",
+      "Embedded Software Engineer",
+      "Connected Car Data Scientist"
+    ]
+  },
+  {
+    "primary_name": "Sustainable Battery Management (BMS)",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "BMS",
+      "Intelligent Battery Management System (IBMS)",
+      "Battery Management Unit (BMU)",
+      "Battery Monitoring System",
+      "State of Charge (SOC) Estimation",
+      "State of Health (SOH) Estimation",
+      "Thermal Management System (TMS)",
+      "Cell Balancing Circuitry",
+      "Modular BMS Architecture",
+      "Cloud-based BMS",
+      "Energy Management System (EMS)",
+      "Battery Electronics Control Unit (BECU)",
+      "State of Power (SOP) Monitoring",
+      "Active Cell Balancing",
+      "Battery Safety Protection Circuit"
+    ],
+    "adzuna_job_roles": [
+      "BMS Engineer",
+      "Battery Systems Engineer",
+      "Embedded Software Engineer",
+      "Power Electronics Engineer",
+      "Energy Storage Systems Engineer"
+    ]
+  },
+  {
+    "primary_name": "OTA (Over-the-Air) Spatial Audio",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "FOTA",
+      "SOTA",
+      "Over-the-air programming",
+      "Wireless Audio DSP Provisioning",
+      "Remote Audio Firmware Update",
+      "OTA-P",
+      "Spatial Audio Calibration Update",
+      "Embedded Audio Stack Update",
+      "Audio Parametric Update",
+      "Wireless Acoustic Tuning",
+      "IVI Software Distribution",
+      "Digital Signal Processing OTA",
+      "Multichannel Audio Firmware Update"
+    ],
+    "adzuna_job_roles": [
+      "Embedded Audio Engineer",
+      "In-Vehicle Infotainment Developer",
+      "FOTA Integration Engineer",
+      "DSP Software Engineer",
+      "Connectivity Systems Engineer"
+    ]
+  },
+  {
+    "primary_name": "Satellite-Connected Electric Vehicles",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "Non-Terrestrial Network (NTN)",
+      "NB-NTN",
+      "3GPP Release 17 Standards",
+      "Vehicle-to-Satellite (V2S)",
+      "Satellite-to-Vehicle (S2V)",
+      "Direct-to-Device (D2D) Satellite Connectivity",
+      "LEO-integrated Telematics",
+      "RF-Transparent Vehicle Roof Systems",
+      "Hybrid Cellular-Satellite Backhaul",
+      "Satcom-Enabled V2X",
+      "GNSS-Enhanced Telematics",
+      "Satellite Automotive Gateway",
+      "Vehicle-Satellite Convergence",
+      "Satellite-Based Fleet Telematics"
+    ],
+    "adzuna_job_roles": [
+      "Telematics Systems Engineer",
+      "RF Antenna Design Engineer",
+      "Connectivity Solutions Architect",
+      "Embedded Software Engineer (Automotive)",
+      "Satellite Communications Specialist"
+    ]
+  },
+  {
+    "primary_name": "AR-Enhanced Navigation (HUDs)",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "AR-HUD",
+      "Windshield HUD",
+      "W-HUD",
+      "Augmented Reality Head-Up Display",
+      "Contact-Analogue Navigation",
+      "Picture Generation Unit",
+      "Virtual Image Distance",
+      "Field of View HUD",
+      "Optical Combiner System",
+      "Sensor Fusion Visualization",
+      "Context-Aware Guidance",
+      "In-vehicle Augmented Reality",
+      "Multi-Image Plane HUD"
+    ],
+    "adzuna_job_roles": [
+      "Automotive Software Engineer",
+      "Optical Design Engineer",
+      "HMI UX Designer",
+      "Computer Vision Specialist",
+      "Embedded Systems Engineer"
+    ]
+  },
+  {
+    "primary_name": "Automotive SaaS Monetization",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "Vehicle Subscription Models",
+      "Mobility-as-a-Service (MaaS) Pricing",
+      "Software-Defined Vehicle (SDV) Revenue",
+      "Telematics Data Monetization",
+      "Per-VIN Pricing",
+      "Transaction-Based Automotive SaaS",
+      "Usage-Based Insurance (UBI) Revenue Models",
+      "Connected Vehicle Service Monetization",
+      "V2X Monetization Frameworks",
+      "OTA Feature Monetization",
+      "Fleet Management SaaS Billing",
+      "Automotive Cloud Service Subscriptions"
+    ],
+    "adzuna_job_roles": [
+      "SaaS Product Manager",
+      "Automotive Data Scientist",
+      "Mobility Solutions Architect",
+      "Revenue Operations Manager",
+      "Connected Car Strategist"
+    ]
+  },
+  {
+    "primary_name": "Explainable AI for Safety",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "XAI",
+      "Interpretable Machine Learning",
+      "SHAP",
+      "LIME",
+      "Feature Attribution",
+      "Saliency Maps",
+      "Mechanistic Interpretability",
+      "Explainable Deep Learning",
+      "Model Transparency",
+      "Rule-Based Explanations",
+      "Attention Mechanisms",
+      "Local Interpretable Model-agnostic Explanations",
+      "SHapley Additive exPlanations"
+    ],
+    "adzuna_job_roles": [
+      "AI Safety Engineer",
+      "Machine Learning Engineer",
+      "Safety-Critical Systems Engineer",
+      "Data Scientist",
+      "AI Compliance Officer"
+    ]
+  },
+  {
+    "primary_name": "Mission-Critical 5G Mobility",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "URLLC",
+      "MCX",
+      "MCPTT",
+      "MCVideo",
+      "MCData",
+      "ProSe",
+      "5G New Radio",
+      "Multi-access Edge Computing",
+      "3GPP Mission-Critical Services",
+      "5G Network Slicing",
+      "Mission-Critical Push-to-X",
+      "Non-Terrestrial Network Integration",
+      "Deterministic QoS Networking",
+      "Public Safety LTE/5G"
+    ],
+    "adzuna_job_roles": [
+      "5G Network Architect",
+      "Telecommunications Engineer",
+      "Wireless Systems Integrator",
+      "RF Design Engineer",
+      "Critical Communications Consultant"
+    ]
+  },
+  {
+    "primary_name": "Software-First OEMs",
+    "category": "Mobility & SDV",
+    "synonyms": [
+      "Software-Defined Vehicle (SDV)",
+      "Software-Centric Architecture",
+      "Over-the-Air (OTA) Update Integration",
+      "Software-Hardware Decoupling",
+      "Centralized E/E Architecture",
+      "Software Modularization",
+      "Digital Twin Modeling",
+      "Virtual Prototyping",
+      "AUTOSAR",
+      "Model-in-the-Loop (MiL)",
+      "Software-in-the-Loop (SiL)",
+      "Hardware-Abstraction Layer (HAL)",
+      "Vehicle-to-Cloud (V2C) Connectivity",
+      "Unified Software Platform",
+      "Cloud-Native Embedded Systems"
+    ],
+    "adzuna_job_roles": [
+      "Embedded Software Architect",
+      "Systems Integration Engineer",
+      "SDV Platform Engineer",
+      "OTA Systems Specialist",
+      "Automotive Cybersecurity Engineer"
+    ]
+  },
+  {
+    "primary_name": "Personal Agentic OS",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Agentic Operating System",
+      "AI Agent Orchestrator",
+      "Agentic Framework",
+      "Autonomous AI Platform",
+      "AI Workspace",
+      "Agent Workspace",
+      "AI Agent Execution Layer",
+      "Multi-Agent Orchestration Platform",
+      "Agentic Workflow Engine",
+      "Intelligent Coordination Platform",
+      "Autonomous Agent Runtime",
+      "Agentic OS Architecture"
+    ],
+    "adzuna_job_roles": [
+      "AI Solutions Architect",
+      "AI Agent Developer",
+      "ML Platform Engineer",
+      "Enterprise AI Architect",
+      "AIOps Specialist"
+    ]
+  },
+  {
+    "primary_name": "Tri-Fold Smartphones",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Triple-panel foldable",
+      "Double-folding display",
+      "Z-fold configuration",
+      "G-shape fold architecture",
+      "Dual-hinge mechanism",
+      "Accordion-fold display",
+      "Multi-folding OLED panel",
+      "Three-cell battery system",
+      "Flexible printed circuit board",
+      "10-inch flexible panel",
+      "Tri-fold hinge assembly",
+      "Multi-workspace mobile platform"
+    ],
+    "adzuna_job_roles": [
+      "Mechanical Engineer",
+      "Display Systems Engineer",
+      "Hardware Product Designer",
+      "Mobile Firmware Engineer",
+      "Quality Reliability Engineer"
+    ]
+  },
+  {
+    "primary_name": "Rollable Laptop Displays",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Flexible OLED",
+      "FOLED",
+      "Extendable Display Technology",
+      "Sliding Screen Mechanism",
+      "Variable Aspect Ratio Display",
+      "Plastic-substrate OLED",
+      "Motorized Display Extension",
+      "Flexible Backplane Technology",
+      "Retractable Screen Assembly",
+      "Rolling Hinge Apparatus",
+      "Transforming Form Factor Display",
+      "Organic Light-Emitting Diode Backplane",
+      "Curved Spine Display"
+    ],
+    "adzuna_job_roles": [
+      "Display Systems Engineer",
+      "Hardware Design Engineer",
+      "Mechatronics Engineer",
+      "OLED Materials Scientist",
+      "Firmware Engineer"
+    ]
+  },
+  {
+    "primary_name": "On-Device Small Language Models (SLMs)",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Small Language Models",
+      "SLMs",
+      "Edge AI Models",
+      "Lightweight Neural Networks",
+      "On-device AI",
+      "Mobile-optimized LLMs",
+      "Resource-efficient NLP",
+      "LiteRT",
+      "MediaPipe LLM Inference",
+      "ONNX Runtime",
+      "SlimLM",
+      "Quantized Language Models",
+      "Local AI Inference",
+      "Embedded NLP",
+      "TinyML"
+    ],
+    "adzuna_job_roles": [
+      "AI Edge Engineer",
+      "Machine Learning Engineer",
+      "Mobile AI Developer",
+      "Embedded Software Engineer",
+      "NLP Engineer"
+    ]
+  },
+  {
+    "primary_name": "AI-First Wearables (Smart Glasses)",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "AI-infused smart glasses",
+      "Extended Reality (XR) glasses",
+      "AI-powered eyewear",
+      "Visual AI wearables",
+      "Audio-AR glasses",
+      "Context-aware smart glasses",
+      "Multi-modal AI wearables",
+      "Voice-first smart glasses",
+      "Ambient AI eyewear",
+      "Smart specs",
+      "AR-lite wearables",
+      "Camera-integrated glasses"
+    ],
+    "adzuna_job_roles": [
+      "Computer Vision Engineer",
+      "Embedded Systems Developer",
+      "Wearable Hardware Engineer",
+      "AI Product Manager",
+      "NLP Software Engineer"
+    ]
+  },
+  {
+    "primary_name": "Computational Photography 2.0",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Camera 2.0",
+      "Epsilon Photography",
+      "Light Field Imaging",
+      "Coded Aperture Imaging",
+      "Coded Exposure Imaging",
+      "High Dynamic Range Imaging",
+      "Structured Illumination",
+      "Plenoptic Imaging",
+      "Synthetic Aperture",
+      "Super-resolution Reconstruction",
+      "Multi-perspective Stitching",
+      "Flutter Shutter Imaging",
+      "Wyckoff Sets",
+      "Computational Illumination"
+    ],
+    "adzuna_job_roles": [
+      "Computer Vision Engineer",
+      "Imaging Scientist",
+      "Computational Photography Researcher",
+      "Optical Software Engineer",
+      "Embedded Vision Systems Architect"
+    ]
+  },
+  {
+    "primary_name": "Direct-to-Satellite Connectivity",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Direct-to-Device (D2D)",
+      "Non-Terrestrial Networks (NTN)",
+      "Direct-to-Cell (D2C)",
+      "3GPP Release 17",
+      "Supplemental Coverage from Space (SCS)",
+      "Satellite IoT",
+      "Mobile-Satellite Service (MSS)",
+      "Direct-to-Mobile (D2M)",
+      "IMT-based Satellite Services",
+      "Satellite-to-UE (User Equipment)",
+      "LEO-to-device communication",
+      "Standardized D2D connectivity"
+    ],
+    "adzuna_job_roles": [
+      "Satellite Systems Engineer",
+      "RF Communications Engineer",
+      "Telecommunications Network Architect",
+      "IoT Solutions Architect"
+    ]
+  },
+  {
+    "primary_name": "Modular Laptop Infrastructure",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Modular PC Architecture",
+      "Interchangeable Computing Modules",
+      "Upgradable Mainboard Design",
+      "Expansion Bay System",
+      "Swappable SoC Architecture",
+      "User-Repairable Hardware Interface",
+      "Standardized I/O Modules",
+      "Open-Source PC Reference Design",
+      "Modular GPU Infrastructure",
+      "Platform Controller Hub Modules",
+      "Field-Replaceable Computing Units",
+      "Flexible Printed Circuit Interconnects"
+    ],
+    "adzuna_job_roles": [
+      "Hardware Design Engineer",
+      "Firmware Engineer",
+      "Systems Integration Specialist",
+      "Product Design Engineer",
+      "Electronic Design Automation Engineer"
+    ]
+  },
+  {
+    "primary_name": "Personal Multi-Cloud Hubs",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Software-Defined Cloud Interconnection",
+      "SDCI",
+      "Multi-cloud Storage Gateway",
+      "Cloud Management Platform",
+      "CMP",
+      "Hybrid Cloud Hub",
+      "Cloud Interconnect Service",
+      "Multi-cloud Controller",
+      "Cross-Cloud Networking",
+      "Cloud Access Security Broker",
+      "CASB",
+      "Object Storage Gateway",
+      "Cloud Brokerage Service",
+      "Multi-cloud Orchestrator"
+    ],
+    "adzuna_job_roles": [
+      "Cloud Architect",
+      "Cloud Network Engineer",
+      "Multi-Cloud Solutions Architect",
+      "DevOps Engineer",
+      "Cloud Infrastructure Engineer"
+    ]
+  },
+  {
+    "primary_name": "Zonal Cooling for Mobile AI",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Vapor Chamber Cooling",
+      "Direct Liquid Cooling",
+      "Phase Change Materials",
+      "Thermoelectric Cooling",
+      "Localized Thermal Management",
+      "Micro-channel Heat Sinks",
+      "Dynamic Thermal Management",
+      "Thermal Interface Materials",
+      "Heat Pipe Technology",
+      "Cold Plate Cooling",
+      "SoC Thermal Dissipation",
+      "Liquid-to-Air Heat Exchange",
+      "Embedded AI Thermal Control",
+      "Passive Heat Dissipation"
+    ],
+    "adzuna_job_roles": [
+      "Thermal Design Engineer",
+      "Hardware Systems Architect",
+      "Embedded Hardware Engineer",
+      "Electronics Thermal Management Specialist",
+      "Mobile Hardware Product Engineer"
+    ]
+  },
+  {
+    "primary_name": "Real-time Kernel-Level Translation",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "RFTL",
+      "Real-Time Flash Translation Layer",
+      "TLB Flush Reduction",
+      "Deterministic Address Mapping",
+      "Hybrid-level Address Mapping",
+      "Deterministic Garbage Collection",
+      "RT-FTL",
+      "Kernel-level Address Translation",
+      "Real-time MMU Management",
+      "Translation Look-aside Buffer Optimization",
+      "Vmalloc Virtual Space Mapping",
+      "Worst-case Response Time Mapping",
+      "Low-latency TLB Management",
+      "Priority-inheritance Aware Translation"
+    ],
+    "adzuna_job_roles": [
+      "Embedded Systems Engineer",
+      "Kernel Developer",
+      "RTOS Architect",
+      "Firmware Engineer",
+      "Systems Programmer"
+    ]
+  },
+  {
+    "primary_name": "Micro-OLED AR Eyewear",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "OLEDoS",
+      "OLED on Silicon",
+      "Birdbath Optics",
+      "Near-eye Display",
+      "Silicon Backplane Display",
+      "Self-emissive Micro-display",
+      "Micro-OLED Panel",
+      "Spatial Computing Headset",
+      "Head-Mounted Display",
+      "Binocular AR Display",
+      "Stereoscopic Display",
+      "Micro-OLED Module",
+      "Active-Matrix Organic Light-Emitting Diode on Silicon"
+    ],
+    "adzuna_job_roles": [
+      "Optical Engineer",
+      "Embedded Systems Engineer",
+      "AR/VR Software Developer",
+      "Hardware Design Engineer",
+      "Display Technology Specialist"
+    ]
+  },
+  {
+    "primary_name": "Digital Workplace Ecosystem",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Digital Employee Experience",
+      "Modern Workplace Architecture",
+      "Employee Experience Platform",
+      "Unified Communications and Collaboration",
+      "Workforce Ecosystems",
+      "Business Process Automation",
+      "Digital Collaboration Infrastructure",
+      "Enterprise Content Management",
+      "Document Management Systems",
+      "Workforce Management Systems",
+      "Unified Productivity Suites",
+      "Smart Office Systems",
+      "Performance Management Systems",
+      "Remote Work Infrastructure",
+      "Digital Transformation Platforms"
+    ],
+    "adzuna_job_roles": [
+      "Digital Workplace Architect",
+      "Digital Transformation Manager",
+      "IT Collaboration Engineer",
+      "Employee Experience Specialist",
+      "Business Systems Analyst"
+    ]
+  },
+  {
+    "primary_name": "Book-Like Dual-Screen eReaders",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Dual-screen e-reader",
+      "Folding e-ink device",
+      "Diptyx e-reader",
+      "Dual E-ink panel hardware",
+      "Open-source e-reader",
+      "ESP32-based reading device",
+      "DRM-free e-reader",
+      "Modular e-paper device",
+      "Book-shaped digital reader",
+      "Dual-display e-ink terminal",
+      "E-paper folding display",
+      "EPUB-native hardware",
+      "ESP32-S3 e-reader"
+    ],
+    "adzuna_job_roles": [
+      "Embedded Systems Engineer",
+      "Hardware Design Engineer",
+      "Firmware Developer",
+      "Product Designer",
+      "Electronics Prototyper"
+    ]
+  },
+  {
+    "primary_name": "AI-Enabled Handheld Gaming",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "AI Handheld PC",
+      "NPU-accelerated Handhelds",
+      "Adaptive Gameplay Systems",
+      "AI-Integrated Mobile Consoles",
+      "Co-Playable Character Technology",
+      "Neural-enhanced Frame Generation",
+      "AI-driven Performance Management",
+      "On-device AI Gaming Assistants",
+      "Neural Processing Unit Portable Gaming",
+      "AI-enhanced Dynamic Difficulty Adjustment",
+      "Smart Matchmaking Systems",
+      "Generative Game Development Hardware"
+    ],
+    "adzuna_job_roles": [
+      "Embedded AI Engineer",
+      "Game Engine Developer",
+      "Hardware Systems Architect",
+      "AI Gameplay Programmer",
+      "Cloud Gaming Infrastructure Engineer"
+    ]
+  },
+  {
+    "primary_name": "Subscription-Based Hardware Services",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Hardware as a Service",
+      "HaaS",
+      "Device as a Service",
+      "DaaS",
+      "PC as a Service",
+      "PCaaS",
+      "Managed Hardware Services",
+      "Hardware Leasing",
+      "Asset-light Procurement",
+      "OPEX-based Hardware Model",
+      "Usership Model",
+      "Physical Infrastructure Leasing",
+      "Infrastructure as a Service (Physical Layer)",
+      "Fleet Management Services"
+    ],
+    "adzuna_job_roles": [
+      "IT Procurement Manager",
+      "Managed Services Engineer",
+      "Asset Lifecycle Manager",
+      "Operations Director",
+      "IT Infrastructure Architect"
+    ]
+  },
+  {
+    "primary_name": "Personal Health Ring Agents",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Smart Ring",
+      "Biometric Wearable",
+      "PPG Sensing Device",
+      "Heart Rate Variability Tracker",
+      "Sleep Actigraphy Sensor",
+      "Pulse Oximetry Ring",
+      "NTC Temperature Sensor Wearable",
+      "Activity Tracking Ring",
+      "Digital Health Ring",
+      "3-Axis Accelerometer Wearable",
+      "Circadian Rhythm Tracker",
+      "BLE Biometric Agent",
+      "Bio-sensor Ring",
+      "Remote Patient Monitoring Device"
+    ],
+    "adzuna_job_roles": [
+      "Wearable Systems Engineer",
+      "Biomedical Data Scientist",
+      "Embedded Software Developer",
+      "Health Informatics Analyst",
+      "Digital Health Product Designer"
+    ]
+  },
+  {
+    "primary_name": "Privacy-First Invisible AI",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Invisible AI",
+      "Privacy-by-Design AI",
+      "Background Intelligence",
+      "On-device AI processing",
+      "Edge-native AI",
+      "Ambient Intelligence",
+      "Embedded AI Infrastructure",
+      "Unobtrusive AI",
+      "In-memory data processing",
+      "Local-first AI",
+      "Responsible AI Architecture",
+      "Non-intrusive automation",
+      "Privacy-preserving Machine Learning",
+      "Seamless Intelligent Integration"
+    ],
+    "adzuna_job_roles": [
+      "AI Privacy Engineer",
+      "Edge Computing Architect",
+      "Machine Learning Infrastructure Engineer",
+      "Data Protection Officer",
+      "Computer Vision Engineer"
+    ]
+  },
+  {
+    "primary_name": "Retro-Style Consumer Electronics",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Retro-computing",
+      "Legacy hardware emulation",
+      "Vintage tech replicas",
+      "Heritage electronics",
+      "Skeuomorphic hardware design",
+      "8-bit microcomputing clones",
+      "FPGA-based hardware emulation",
+      "Lo-fi digital electronics",
+      "Boutique commemorative hardware",
+      "Neo-vintage electronics",
+      "Hardware skeuomorphism",
+      "Analog-aesthetic digital devices",
+      "Legacy system miniaturization",
+      "Hardware-level emulation"
+    ],
+    "adzuna_job_roles": [
+      "Industrial Designer",
+      "Embedded Systems Engineer",
+      "Hardware Design Engineer",
+      "CMF Designer",
+      "Product Lifecycle Manager"
+    ]
+  },
+  {
+    "primary_name": "Continuous Biometric Authentication",
+    "category": "Mobile & Laptop Tech",
+    "synonyms": [
+      "Behavioral Biometrics",
+      "Active Authentication",
+      "Implicit Authentication",
+      "Keystroke Dynamics",
+      "Gait Analysis",
+      "Passive Biometric Monitoring",
+      "Mouse Dynamics",
+      "Continuous Identity Verification",
+      "Adaptive Authentication",
+      "Behavioral MFA",
+      "Swipe Patterns",
+      "Touchscreen Dynamics",
+      "Context-aware Authentication",
+      "Multi-modal Biometric Systems"
+    ],
+    "adzuna_job_roles": [
+      "Cybersecurity Architect",
+      "IAM Engineer",
+      "Biometrics Research Scientist",
+      "Security Systems Analyst",
+      "Identity Management Specialist"
+    ]
+  }
+]

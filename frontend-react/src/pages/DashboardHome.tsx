@@ -6,6 +6,7 @@ import MomentumTrajectoryChart from '../components/charts/MomentumTrajectoryChar
 import PillarScoresChart from '../components/charts/PillarScoresChart'
 import SignalProfileChart from '../components/charts/SignalProfileChart'
 import ProjectedTrajectoryCards from '../components/charts/ProjectedTrajectoryCards'
+import FloatingChat from '../components/ui/FloatingChat'
 import { supabase } from '../lib/supabase'
 
 export default function DashboardHome() {
@@ -33,27 +34,26 @@ export default function DashboardHome() {
   ]
 
   const mockMomentumData = [
-    { date: 'Day 1', score: 72, expected: 70 },
-    { date: 'Day 2', score: 75, expected: 73 },
-    { date: 'Day 3', score: 78, expected: 75 },
-    { date: 'Day 4', score: 81, expected: 76 },
-    { date: 'Day 5', score: 82, expected: 78 },
-    { date: 'Day 6', score: 84, expected: 80 },
-    { date: 'Day 7', score: 87, expected: 82 },
-    { date: 'Day 8', score: 89, expected: 84 },
-    { date: 'Day 9', score: null, expected: 88 },
-    { date: 'Day 10', score: null, expected: 92 },
-    { date: 'Day 11', score: null, expected: 95 },
-    { date: 'Day 12', score: null, expected: 98 },
+    { date: 'W34', score: 72, expected: null },
+    { date: 'W35', score: 75, expected: null },
+    { date: 'W36', score: 78, expected: null },
+    { date: 'W37', score: 81, expected: null },
+    { date: 'W38', score: 82, expected: null },
+    { date: 'W39', score: 84, expected: null },
+    { date: 'W40', score: 87, expected: null },
+    { date: 'W41', score: 89, expected: null },
+    { date: 'W42 (Pred)', score: null, expected: 88 },
+    { date: 'W43 (Pred)', score: null, expected: 92 },
+    { date: 'W44 (Pred)', score: null, expected: 95 },
+    { date: 'W45 (Pred)', score: null, expected: 98 },
   ]
 
   const mockPillarData = [
-    { name: 'W32', Developer: 45, Market: 60, Business: 85 },
-    { name: 'W33', Developer: 55, Market: 65, Business: 82 },
-    { name: 'W34', Developer: 75, Market: 70, Business: 80 },
-    { name: 'W35', Developer: 85, Market: 80, Business: 75 },
-    { name: 'W36', Developer: 95, Market: 85, Business: 70 },
-    { name: 'W37', Developer: 100, Market: 90, Business: 65 },
+    { name: 'Developer', score: 85, color: '#3b82f6' },
+    { name: 'Market', score: 72, color: '#10b981' },
+    { name: 'Business', score: 90, color: '#f59e0b' },
+    { name: 'Community', score: 65, color: '#8b5cf6' },
+    { name: 'Growth', score: 78, color: '#ec4899' },
   ]
 
   const mockSignalData = [
@@ -126,9 +126,11 @@ export default function DashboardHome() {
       </div>
 
       {/* Main Chart */}
-      <div className="h-auto min-h-[500px]">
+      <div className="h-auto min-h-[500px] mb-24">
         <ForecastChart />
       </div>
+
+      <FloatingChat />
     </div>
   )
 }

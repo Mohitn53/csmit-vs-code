@@ -57,9 +57,7 @@ export default function LoginPage() {
         />
         <div className="relative z-10 max-w-lg">
           <div className="flex items-center gap-3 mb-8">
-            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-emerald-500 flex items-center justify-center shadow-lg shadow-indigo-500/40">
-              <Activity className="w-7 h-7 text-white" />
-            </div>
+
             <span className="font-bold text-3xl tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-white/70">
               TechIntel
             </span>
