@@ -10,6 +10,7 @@ import TopicPage from './pages/TopicPage'
 import AIPage from './pages/AIPage'
 import ProfilePage from './pages/ProfilePage'
 import ResumeAnalyzerPage from './pages/ResumeAnalyzerPage'
+import ComparePage from './pages/ComparePage'
 
 function ProtectedRoute() {
   const { session, loading } = useAuth()
@@ -48,6 +49,7 @@ function AppRoutes() {
           <Route index element={<DashboardHome />} />
           <Route path="ai" element={<AIPage />} />
           <Route path="resume-analyzer" element={<ResumeAnalyzerPage />} />
+          <Route path="compare" element={<ComparePage />} />
           <Route path="topic/:topic_name" element={<TopicPage />} />
           <Route path="profile" element={<ProfilePage />} />
         </Route>

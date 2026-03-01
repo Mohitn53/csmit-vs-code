@@ -29,7 +29,7 @@ async def chat_endpoint(req: ChatRequest):
         category_name = entities.get("category_name")
         
         if not primary_name:
-            reply = "I couldn't find a specifically matching technology in the catalog. Could you please specify which tech you're asking about?"
+            reply = rag_pipeline.step_fallback_general_knowledge(user_query)
         else:
             print(f"Identified entity: {primary_name} ({category_name})")
             
@@ -37,7 +37,7 @@ async def chat_endpoint(req: ChatRequest):
             retrieved_data = rag_pipeline.step_4_execute_query(query_code)
             
             if not retrieved_data or (isinstance(retrieved_data, dict) and "error" in retrieved_data):
-                reply = "I tried checking the database but couldn't find context for this specific request right now."
+                reply = rag_pipeline.step_fallback_general_knowledge(user_query, primary_name)
             else:
                 reply = rag_pipeline.step_5_generate_human_response(user_query, retrieved_data)
                 

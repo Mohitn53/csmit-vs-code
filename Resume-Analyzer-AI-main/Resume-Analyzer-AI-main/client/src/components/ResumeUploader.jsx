@@ -740,6 +740,7 @@ function ResumeUploader() {
       const response = await fetch("http://localhost:5000/api/resume/upload", { method: "POST", body: formData });
       if (!response.ok) { const text = await response.text().catch(() => null); throw new Error(text || "Failed to parse resume"); }
       const data = await response.json();
+      console.log(data);
       setParsedText(data.data?.raw_text || "");
       setAnalysis(data.data?.aiAnalysis || null);
     } catch (err) {

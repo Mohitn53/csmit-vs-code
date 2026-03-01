@@ -11,6 +11,24 @@ import { supabase } from '../lib/supabase'
 
 export default function DashboardHome() {
   const [totalTopics, setTotalTopics] = useState('100')
+  const [countdown, setCountdown] = useState('')
+
+  // Live countdown to next midnight UTC (daily data refresh)
+  useEffect(() => {
+    function getCountdown() {
+      const now = new Date()
+      const nextMidnight = new Date()
+      nextMidnight.setUTCHours(24, 0, 0, 0)
+      const diff = nextMidnight.getTime() - now.getTime()
+      const h = Math.floor(diff / 3600000)
+      const m = Math.floor((diff % 3600000) / 60000)
+      const s = Math.floor((diff % 60000) / 1000)
+      return `${h}h ${m}m ${s}s`
+    }
+    setCountdown(getCountdown())
+    const interval = setInterval(() => setCountdown(getCountdown()), 1000)
+    return () => clearInterval(interval)
+  }, [])
 
   useEffect(() => {
     async function fetchStats() {
@@ -30,7 +48,7 @@ export default function DashboardHome() {
     { name: 'Total Topics Tracked', value: totalTopics, icon: Layers, trend: 'Active', color: 'text-blue-400' },
     { name: 'Average Growth Score', value: '76.4', icon: TrendingUp, trend: '+4.2% vs last week', color: 'text-emerald-400' },
     { name: 'Fastest Growing', value: 'Physical AI', icon: Zap, trend: '92.1 Score', color: 'text-amber-400' },
-    { name: 'Next Update In', value: '14h 22m', icon: Clock, trend: 'Real-time sync', color: 'text-purple-400' },
+    { name: 'Next Update In', value: countdown, icon: Clock, trend: 'Daily UTC refresh', color: 'text-purple-400' },
   ]
 
   const mockMomentumData = [

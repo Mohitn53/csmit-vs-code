@@ -536,8 +536,8 @@ function SkillAnalyzer({ skills }: { skills: string[] }) {
                 <div className="sa-panel-body">
                   {strongSkills.length === 0
                     ? <EmptyState icon="💪" text="No high-demand skills detected" />
-                    : strongSkills.map((s: any) => (
-                      <div className="sa-demand-row" key={s.skill}>
+                    : strongSkills.map((s: any, i: number) => (
+                      <div className="sa-demand-row" key={`strong-${i}-${s.skill}`}>
                         <div className="sa-demand-left">
                           <span className="sa-demand-skill">{s.skill}</span>
                           <span className="sa-demand-why">{s.why}</span>
@@ -582,8 +582,8 @@ function SkillAnalyzer({ skills }: { skills: string[] }) {
                   </div>
                   <div className="sa-panel-body">
                     <div className="sa-chips">
-                      {modSkills.map((s: any) => (
-                        <span className="sa-chip sa-chip-moderate" key={s.skill}>
+                      {modSkills.map((s: any, i: number) => (
+                        <span className="sa-chip sa-chip-moderate" key={`mod-${i}-${s.skill}`}>
                           {s.skill} · {s.demand_score}
                         </span>
                       ))}
@@ -605,8 +605,8 @@ function SkillAnalyzer({ skills }: { skills: string[] }) {
                       <div className="sa-gap-block" key={cat}>
                         <div className="sa-gap-cat-label">{data.label}</div>
                         <div className="sa-chips">
-                          {data.top_missing_skills.map((s: any) => (
-                            <span className="sa-chip sa-chip-weak" key={s.skill} title={s.why}>
+                          {data.top_missing_skills.map((s: any, i: number) => (
+                            <span className="sa-chip sa-chip-weak" key={`gap-${cat}-${i}-${s.skill}`} title={s.why}>
                               {s.skill} · {s.demand_score}
                             </span>
                           ))}
@@ -625,7 +625,7 @@ function SkillAnalyzer({ skills }: { skills: string[] }) {
                 </div>
                 <div className="sa-panel-body">
                   {top_recommendations.map((rec: any, i: number) => (
-                    <div className="sa-rec" key={rec.skill}>
+                    <div className="sa-rec" key={`rec-${i}-${rec.skill}`}>
                       <div className="sa-rec-num">{i + 1}</div>
                       <div className="sa-rec-content">
                         <div className="sa-rec-skill">{rec.skill}</div>
@@ -647,8 +647,8 @@ function SkillAnalyzer({ skills }: { skills: string[] }) {
                   </div>
                   <div className="sa-panel-body">
                     <div className="sa-chips">
-                      {unrecognized_skills.map((s: string) => (
-                        <span className="sa-chip sa-chip-weak" key={s}>{s}</span>
+                      {unrecognized_skills.map((s: string, i: number) => (
+                        <span className="sa-chip sa-chip-weak" key={`unrec-${i}-${s}`}>{s}</span>
                       ))}
                     </div>
                     <p style={{ fontSize: 11, color: "var(--muted-foreground)", marginTop: 10 }}>
@@ -738,7 +738,8 @@ export default function ResumeAnalyzerPage() {
       const response = await fetch("http://localhost:5000/api/resume/upload", { method: "POST", body: formData });
       if (!response.ok) { const text = await response.text().catch(() => null); throw new Error(text || "Failed to parse resume"); }
       const data = await response.json();
-      setParsedText(data.data?.raw_text || "");
+      console.log(data)
+      setParsedText(data.data?.rawText || "");
       setAnalysis(data.data?.aiAnalysis || null);
     } catch (err: any) {
       setError(err.message || "Unknown error");
